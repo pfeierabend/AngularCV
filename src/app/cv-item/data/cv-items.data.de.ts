@@ -2,33 +2,32 @@ import { CvItem } from '../cv-item';
 
 /* eslint-disable max-len */
 export const GENERAL = {
-  name: 'Sebastian Schreck',
-  position: 'Software Entwickler',
+  name: 'Patrick Feierabend',
+  position: 'Project Manager',
   description: `Sebastian begann seine IT-Karriere als QA Werkstudent während seines Informatik-Studiums an der TU Berlin. Nach dem Abschluss der Masterarbeit wurde er ein festangestellter Vollzeit-Softwareentwickler bei Mister Spex. Dort nahm er sowohl Backend- als auch Frontend-Aufgaben wahr. Durch Unzufriedenheit bezüglich der Auftrennung von Entwicklung und Betrieb trieb es ihn zu einem Wechsel auf die Betriebsseite um dort mehr Einblicke zu gewinnen. Nachdem er beide Seiten kennengelernt hatte, wurde Sebastian zu einem starken Verfechter von DevOps Prinzipien und geteilter Verantwortung. Hierzu hielt Sebastian Vorträge auf der code.talks und DevOpsCon über die Themen DevOps, Kollaboration, Feedback-Kultur und Verantwortlichkeiten.
 
 Sebastian ist auf der Suche nach neuen Herausforderungen welche moderne, fortschrittliche Technologien beinhalten und ein kollaboratives Arbeitsumfeld. Sich neues Wissen anzueignen und neue Technologien auszuprobieren sind Teil seiner Motivation. Neue Stellen sind für Sebastian interessant, falls diese es ermöglichen die Software über den gesamten Weg zu begleiten: von der Planung über die Implementierung bis hin zum Deployment und Monitoring. Verstärkte Feedback-Zyklen und eine Kultur des stetigen Lernens und Experimentierens definieren eine ordentliche Arbeitsumgebung für ihn. Angebote für Stellen außerhalb Berlins sind für Sebastian nicht relevant.
-
-Diese Internetseite wurde als einfacher, selbst-gehosteter online-Lebenslauf konzipiert. Um mehr hierüber zu erfahren, bitte auf das AngularCV logo in der unteren, rechten Ecke klicken.`,
+`,
 };
 /* eslint-enable max-len */
 
 export const CVITEMS: CvItem[] = [
   {
-    title: 'Netlight Consulting GmbH',
-    subtitle: 'IT Consultant - Associate Manager',
-    begin: '2019-01',
+    title: 'Foundever',
+    subtitle: 'Project Manager ePMO EMEA',
+    begin: '2022-06',
     end: '',
-    description: 'Netlight ist eine IT-Beratungsfirma mit Büros in Stockholm, Oslo, München, Helsinki, Berlin, Hamburg, Kopenhagen, Zürich, Frankfurt, Amsterdam und Köln. Der Kern von IT-Consulting für uns sind die Talente, welche in Kooperation miteinander wertvolle ERgebnisse für unsere Kunden erbringen.',
+    description: 'Foundever - großer outsourcer -blablabla',
     tags: ['Java', 'SpringBoot', 'React', 'Python', 'FastAPI', 'Kafka', 'MongoDB', 'PostgreSQL', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ',
       'Docker', 'Jira', 'Bamboo', 'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash', 'Tech Lead', 'Product Owner'],
     link: 'https://www.netlight.com',
     thumbnail: 'Netlight_Consulting_logo.svg',
     positions: [
       {
-        title: 'Automotive Innovation Lab',
-        subtitle: 'Expert Software Engineer',
-        begin: '2023-08',
-        end: '',
+        title: 'Foundever',
+        subtitle: 'Senior OnSite Engineer',
+        begin: '2019-08',
+        end: '2022-05',
         description: '',
         tags: ['Python', 'Django', 'Git', 'KanBan', 'IntelliJ', 'Gitlab CI', 'Docker', 'Jira', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
       },
