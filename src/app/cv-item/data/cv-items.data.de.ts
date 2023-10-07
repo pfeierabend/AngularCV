@@ -18,10 +18,9 @@ export const CVITEMS: CvItem[] = [
     begin: '2017-02',
     end: '',
     description: 'Foundever™ ist einer der Weltmarktführer im Bereich Outsourcing von Kundenservice Dienstleistungen.',
-    tags: ['Java', 'SpringBoot', 'React', 'Python', 'FastAPI', 'Kafka', 'MongoDB', 'PostgreSQL', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ',
-      'Docker', 'Jira', 'Bamboo', 'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash', 'Tech Lead', 'Product Owner'],
-    link: 'https://www.netlight.com',
-    thumbnail: 'Netlight_Consulting_logo.svg',
+    tags: [],
+    link: 'https://www.foundever.com',
+    thumbnail: foundever_logo.svg',
     positions: [
         {
         title: 'Projekt Manager',
