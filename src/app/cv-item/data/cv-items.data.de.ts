@@ -54,7 +54,7 @@ export const CVITEMS: CvItem[] = [
     description: '',
     tags: [],
     link: '',
-    thumbnail: '',
+    thumbnail: 'cartransport_logo.png',
   },
   {
     title: 'Commerz Finanz GmbH (Heute Consors Finanz)',
