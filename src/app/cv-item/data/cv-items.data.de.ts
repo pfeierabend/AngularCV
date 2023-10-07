@@ -4,7 +4,7 @@ import { CvItem } from '../cv-item';
 export const GENERAL = {
   name: 'Patrick Feierabend',
   position: 'Project Manager',
-  description: `Patrick bringt Praxiserfahrung in den Bereichen Team Management, Projekt Management, IT-Helpdesk und Leadership mit
+  description: `Als Rüstzeug für den Djungel brint Patrick handfeste Expertise in den Bereichen Team Management, Projekt Management, IT-Helpdesk, und IT-OnSite Engineering mit.
 `,
 };
 /* eslint-enable max-len */
@@ -214,15 +214,15 @@ export const CONTACT = {
 export const INTERESTS = [
   {
     title: 'Familie',
-    icon: 'family_restroom',
+    icon: 'child_care',
   },
   {
     title: 'PC Gaming',
-    icon: 'joystick',
+    icon: 'computer',
   },
   {
     title: 'Schach',
-    icon: 'chess',
+    icon: 'timer',
   },
   {
     title: 'Badminton',
@@ -230,7 +230,7 @@ export const INTERESTS = [
   },
   {
     title: 'Programmieren',
-    icon: 'terminal',
+    icon: 'code',
   },
 ];
 
