@@ -175,7 +175,7 @@ export const PROJECTS: CvItem[] = [
     description: 'Planung und koordinierung der implementierung des Kundenservice für ein globales Finanztransaktionsunternehmen. Aufbau von ~120 Mitarbeitern im Senegal und in Indien',
     tags: [],
     link: '',
-    thumbnail: 'financial-logo.png',
+    thumbnail: 'financial-logo.jpg',
   },
   {
     title: 'Aufbau Fulfillment',
