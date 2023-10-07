@@ -20,7 +20,7 @@ export const CVITEMS: CvItem[] = [
     description: 'Foundever™ ist einer der Weltmarktführer im Bereich Outsourcing von Kundenservice Dienstleistungen.',
     tags: [],
     link: 'https://www.foundever.com',
-    thumbnail: 'foundever_logo.svg',
+    thumbnail: 'foundever-logo.svg',
     positions: [
         {
         title: 'Projekt Manager',
