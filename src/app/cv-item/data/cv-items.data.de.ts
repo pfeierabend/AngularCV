@@ -2,76 +2,59 @@ import { CvItem } from '../cv-item';
 
 /* eslint-disable max-len */
 export const GENERAL = {
-  name: 'Sebastian Schreck',
-  position: 'Software Entwickler',
+  name: 'Patrick Feierabend',
+  position: 'Project Manager',
   description: `Sebastian begann seine IT-Karriere als QA Werkstudent während seines Informatik-Studiums an der TU Berlin. Nach dem Abschluss der Masterarbeit wurde er ein festangestellter Vollzeit-Softwareentwickler bei Mister Spex. Dort nahm er sowohl Backend- als auch Frontend-Aufgaben wahr. Durch Unzufriedenheit bezüglich der Auftrennung von Entwicklung und Betrieb trieb es ihn zu einem Wechsel auf die Betriebsseite um dort mehr Einblicke zu gewinnen. Nachdem er beide Seiten kennengelernt hatte, wurde Sebastian zu einem starken Verfechter von DevOps Prinzipien und geteilter Verantwortung. Hierzu hielt Sebastian Vorträge auf der code.talks und DevOpsCon über die Themen DevOps, Kollaboration, Feedback-Kultur und Verantwortlichkeiten.
 
 Sebastian ist auf der Suche nach neuen Herausforderungen welche moderne, fortschrittliche Technologien beinhalten und ein kollaboratives Arbeitsumfeld. Sich neues Wissen anzueignen und neue Technologien auszuprobieren sind Teil seiner Motivation. Neue Stellen sind für Sebastian interessant, falls diese es ermöglichen die Software über den gesamten Weg zu begleiten: von der Planung über die Implementierung bis hin zum Deployment und Monitoring. Verstärkte Feedback-Zyklen und eine Kultur des stetigen Lernens und Experimentierens definieren eine ordentliche Arbeitsumgebung für ihn. Angebote für Stellen außerhalb Berlins sind für Sebastian nicht relevant.
-
-Diese Internetseite wurde als einfacher, selbst-gehosteter online-Lebenslauf konzipiert. Um mehr hierüber zu erfahren, bitte auf das AngularCV logo in der unteren, rechten Ecke klicken.`,
+`,
 };
 /* eslint-enable max-len */
 
 export const CVITEMS: CvItem[] = [
   {
-    title: 'Netlight Consulting GmbH',
-    subtitle: 'IT Consultant - Associate Manager',
-    begin: '2019-01',
+    title: 'Foundever',
+    subtitle: 'Mehrere Positionen',
+    begin: '2017-02',
     end: '',
-    description: 'Netlight ist eine IT-Beratungsfirma mit Büros in Stockholm, Oslo, München, Helsinki, Berlin, Hamburg, Kopenhagen, Zürich, Frankfurt, Amsterdam und Köln. Der Kern von IT-Consulting für uns sind die Talente, welche in Kooperation miteinander wertvolle ERgebnisse für unsere Kunden erbringen.',
+    description: 'Foundever™ ist einer der Weltmarktführer im Bereich Outsourcing von Kundenservice Dienstleistungen.',
     tags: ['Java', 'SpringBoot', 'React', 'Python', 'FastAPI', 'Kafka', 'MongoDB', 'PostgreSQL', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ',
       'Docker', 'Jira', 'Bamboo', 'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash', 'Tech Lead', 'Product Owner'],
     link: 'https://www.netlight.com',
     thumbnail: 'Netlight_Consulting_logo.svg',
     positions: [
-      {
-        title: 'Automotive Innovation Lab',
-        subtitle: 'Expert Software Engineer',
-        begin: '2023-08',
+        {
+        title: 'Projekt Manager',
+        subtitle: 'ePMO EMEA',
+        begin: '2022-06',
         end: '',
-        description: '',
-        tags: ['Python', 'Django', 'Git', 'KanBan', 'IntelliJ', 'Gitlab CI', 'Docker', 'Jira', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
-      },
-      {
-        title: 'Führende globale Wirtschaftsprüfungsgesellschaft',
-        subtitle: 'Tech Lead & Technical Product Owner',
-        begin: '2022-07',
-        end: '2023-06',
-        description: '',
-        tags: ['Python', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Azure DevOps', 'Docker', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
-      },
-      {
-        title: 'Automotive Mobilitätsanbieter',
-        subtitle: 'Tech Lead & Product Owner',
-        begin: '2021-01',
-        end: '2022-06',
         description: '',
         tags: ['React', 'Python', 'FastAPI', 'PostgreSQL', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Docker', 'Jira', 'Scrum',
           'Confluence', 'GitHub Actions'],
       },
       {
-        title: 'Führende deutsche Preisvergleichsseite',
-        subtitle: 'Senior Lead Software Engineer & Architect',
+        title: 'Senior OnSite Engineer',
+        subtitle: 'Krefeld & Düsseldorf',
         begin: '2019-08',
-        end: '2020-12',
+        end: '2022-05',
         description: '',
-        tags: ['Java', 'SpringBoot', 'React', 'Kafka', 'MongoDB', 'Kubernetes', 'Git', 'IntelliJ', 'Docker', 'Jira', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
+        tags: ['Python', 'Django', 'Git', 'KanBan', 'IntelliJ', 'Gitlab CI', 'Docker', 'Jira', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
       },
       {
-        title: 'Führende deutsche Immobilienplattform',
-        subtitle: 'Software Engineer & Cloud Architekt',
-        begin: '2019-01',
+        title: 'Team Manager',
+        subtitle: 'Mitarbeiter FÜhrung- und Entwicklung',
+        begin: '2018-09',
         end: '2019-07',
         description: '',
-        tags: ['Java', 'SpringBoot', 'Git', 'IntelliJ', 'Docker', 'Jira', 'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash'],
+        tags: ['Python', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Azure DevOps', 'Docker', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
       },
     ],
   },
   {
     title: 'Mister Spex GmbH',
     subtitle: 'Professional Software Engineer',
-    begin: '2015-06',
-    end: '2018-12',
+    begin: '2017-02',
+    end: '2019-08',
     description: 'Implementierung von Features auf der E-Commerce Plattform Intershop. Entwicklung einer separierted API als Microservice nach DevOps Prinzipien welche die Preise und Kombinationsmöglichkeiten der Brillengläser berechnet. Später erfolgte der Wechsel von der Produktentwicklung zum Infrastrukturbetrieb. ' +
       'Instandhaltung und Betrieb der IT-Plattform auf welcher der E-Commerce-Shop läuft. Automatisierung von Prozessen and Unterstützung der Entwicklungsteams in ihrer Arbeit. Planung und Durchführung der Migrations mehrerer Anwendungen hin zur Cloud, darunter der Haupt-Webshop.',
     tags: ['Java', 'Intershop', 'Python', 'Ansible', 'Git', 'KanBan', 'PyCharm', 'Apache HTTPD', 'AWS', 'Docker', 'Jira', 'Bamboo', 'TDD',
