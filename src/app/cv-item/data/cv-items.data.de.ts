@@ -155,7 +155,7 @@ export const PROJECTS: CvItem[] = [
     description: '',
     tags: [],
     link: '',
-    thumbnail: '',
+    thumbnail: 'helpdesk-logo.png',
   },
   {
     title: 'Implementierung des Kundenservice einer großen Automobilbank',
@@ -165,7 +165,7 @@ export const PROJECTS: CvItem[] = [
     description: 'Planung und koordinierung der implementierung des Kundenservice für eine große deutsche Automobilbank. Aufbau von ~300 Mitarbeitern in Deutschland und Nearshore',
     tags: [],
     link: '',
-    thumbnail: '',
+    thumbnail: 'bank_logo.jpg',
   },
   {
     title: 'Implementierung des Kundenservice eines globalen Finanzdienstleisters',
@@ -175,7 +175,7 @@ export const PROJECTS: CvItem[] = [
     description: 'Planung und koordinierung der implementierung des Kundenservice für ein globales Finanztransaktionsunternehmen. Aufbau von ~120 Mitarbeitern im Senegal und in Indien',
     tags: [],
     link: '',
-    thumbnail: '',
+    thumbnail: 'financial-logo.png',
   },
   {
     title: 'Aufbau Fulfillment',
@@ -185,7 +185,7 @@ export const PROJECTS: CvItem[] = [
     description: '',
     tags: [],
     link: '',
-    thumbnail: '',
+    thumbnail: 'fulfillment-logo.png',
   },
 
 
