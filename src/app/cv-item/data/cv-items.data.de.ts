@@ -5,7 +5,9 @@ export const GENERAL = {
   name: 'Patrick Feierabend',
   position: 'IT Project & Team Manager',
   description: `Die Zusammenarbeit auf gleicher Augenhöhe in einer entspannten Unternehmenskultur ist sowohl euch als auch mir ein wichtiges Anliegen. Deshalb verwende ich hier die "Du"-Form.
+
 Als ich eure Ausschreibung für erfahrene Dschungel-Guides (IT Project & Team Manager) gesehen habe, wusste ich sofort, dass ich mich bewerben muss. Gerade in den letzten fünf Jahren habe ich das Rüstzeug erworben, das genau für diese Expedition erforderlich ist.
+
 In den letzten Jahren habe ich mich erfolgreich durch das Dickicht des Projektmanagements geschlagen, als Senior OnSite Engineer die IT-Urwälder erkundet und verantwortet – einschließlich des Aufbaus eines IT-Helpdesks. Darüber hinaus habe ich als Team Manager Mitarbeiter erfolgreich durch den Dschungel geführt und sie zu versierten Dschungelguides entwickelt. 
 Weitere Details zu den erwähnten Expeditionen und meinen bisherigen beruflichen Erfahrungen findest du auf den folgenden Seiten. Ich würde mich freuen, diese in einem persönlichen Gespräch näher zu erläutern.
 
