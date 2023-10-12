@@ -3,8 +3,35 @@ import { CvItem } from '../cv-item';
 /* eslint-disable max-len */
 export const GENERAL = {
   name: 'Patrick Feierabend',
-  position: 'Project Manager',
-  description: `Als Rüstzeug für den Djungel brint Patrick handfeste Expertise in den Bereichen Team Management, Projekt Management, IT-Helpdesk, und IT-OnSite Engineering mit.
+  position: 'IT Project & Team Manager',
+  description: `Die Zusammenarbeit auf gleicher Augenhöhe in einer entspannten Unternehmenskultur ist sowohl euch als auch mir ein wichtiges Anliegen. Deshalb verwende ich hier die "Du"-Form.
+Als ich eure Ausschreibung für erfahrene Dschungel-Guides (IT Project & Team Manager) gesehen habe, wusste ich sofort, dass ich mich bewerben muss. Gerade in den letzten fünf Jahren habe ich das Rüstzeug erworben, das genau für diese Expedition erforderlich ist.
+In den letzten Jahren habe ich mich erfolgreich durch das Dickicht des Projektmanagements geschlagen, als Senior OnSite Engineer die IT-Urwälder erkundet und verantwortet – einschließlich des Aufbaus eines IT-Helpdesks. Darüber hinaus habe ich als Team Manager Mitarbeiter erfolgreich durch den Dschungel geführt und sie zu versierten Dschungelguides entwickelt. 
+Weitere Details zu den erwähnten Expeditionen und meinen bisherigen beruflichen Erfahrungen findest du auf den folgenden Seiten. Ich würde mich freuen, diese in einem persönlichen Gespräch näher zu erläutern.
+
+Obwohl kein separates Anschreiben erforderlich ist, halte ich es dennoch für hilfreich, einige Schlüsselinformationen festzuhalten:
+
+Was ich neben meiner Erfahrung mitbringe:
+
+•	Ein hohes Maß an Eigeninitiative und Energie
+•	Eine pragmatische "Hands-on" und "Getting Things Done"-Mentalität
+•	Affinität für Veränderungen
+•	Den festen Willen, meine Mitarbeiter zu fördern und weiterzuentwickeln
+•	Ich habe einen hohen Teamfokus und sehe mich als Manager als supporter des Teams
+•	Erfahrung in der Entwicklung operativer Prozesse auf Grundlage von KPIs und Zahlen
+•	Ein positives Weltbild und die Fähigkeit andere zu begeistern und zu motivieren
+
+Was ich von der Position erwarte:
+
+•	Ein Team, das gemeinsam die gesteckten Ziele erreichen möchte, und eine dem Menschen zugewandte Atmosphäre, die dies begünstigt
+•	Die Gelegenheit, Optimierungspotenziale zu erkennen, diese in Zusammenarbeit mit der IT-Direktion in Projekte umzusetzen, diese eigenverantwortlich zu leiten und erfolgreich zu implementieren
+
+Warum ich gerne für Doc Check arbeiten möchte:
+
+•	Die Rolle entspricht meinen Fähigkeiten und verknüpft IT, Team Management und Projektmanagement auf optimale Weise
+•	Die beschriebene Unternehmenskultur entspricht meinen Vorstellungen
+•	Doc Check bietet einen sicheren Arbeitsplatz
+•	Das medizinische Umfeld finde ich äußerst spannend"
 `,
 };
 /* eslint-enable max-len */
