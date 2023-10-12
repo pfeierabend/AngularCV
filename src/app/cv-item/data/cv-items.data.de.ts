@@ -62,15 +62,15 @@ export const CVITEMS: CvItem[] = [
         subtitle: 'Krefeld & Düsseldorf',
         begin: '2019-08',
         end: '2022-05',
-        description: 'In der Rolle als Sr. OnSite Enginer war ich zu beginn verantwortlich für den Reibungslosen betrieb von ca. 900 Arbeitsplätzen in unserem Standort in Krefeld. Im Jahr 2020 kam unser Standort in Düsseldorf mit einer ähnlichen Mitarbeiteranzahl dazu.</br>Meine Aufgaben umfassten:</br></br>• Leitung des aus mir und 2 weiteren Engineers bestehenden OnSite Teams Krefeld & Düsseldorf</br>• Instandhalten und Troubleshooten aller arbeitsplätze.</br>• Technische implementation neuer Kundenprojekte.</br>• Aufsetzen und verkablen neuer Arbeitsplätze</br>• Zusammenarbeit mit den Fachteams (z.B. Networking, Voice)</br>• Durchführung von Großprojekten zur Verbesserung unserer IT-Supportstruktur in Deutschland (z.B. Einrichtung eines W@H Helpdesk und unseres Deutschlandweiten W@H Fulfillments</br>• Aufsetzen und instandhalten von virtuellen Arbeitsplätzen mittels AWS',
+        description: 'In der Rolle als Sr. OnSite Enginer war ich zu beginn verantwortlich für den Reibungslosen betrieb von ca. 900 Arbeitsplätzen in unserem Standort in Krefeld. Im Jahr 2020 kam unser Standort in Düsseldorf mit einer ähnlichen Mitarbeiteranzahl dazu./nMeine Aufgaben umfassten:/n/n• Leitung des aus mir und 2 weiteren Engineers bestehenden OnSite Teams Krefeld & Düsseldorf/n• Instandhalten und Troubleshooten aller arbeitsplätze./n• Technische implementation neuer Kundenprojekte./n• Aufsetzen und verkablen neuer Arbeitsplätze/n• Zusammenarbeit mit den Fachteams (z.B. Networking, Voice)/n• Durchführung von Großprojekten zur Verbesserung unserer IT-Supportstruktur in Deutschland (z.B. Einrichtung eines W@H Helpdesk und unseres Deutschlandweiten W@H Fulfillments/n• Aufsetzen und instandhalten von virtuellen Arbeitsplätzen mittels AWS',
         tags: ['Active Directory','Windows Server','Troubleshooting','IT Management','IT Project Management','Endpoint','AWS'],
       },
       {
         title: 'Team Manager',
-        subtitle: 'Mitarbeiter FÜhrung- und Entwicklung',
+        subtitle: 'Mitarbeiter Führung- und Entwicklung',
         begin: '2018-09',
         end: '2019-07',
-        description: 'Als Teammanager habe ich ein Team vo 15-20 Mitarbeitern fachlich und disziplinarisch geführt und entwickelt.</br>Meine Aufgaben umfassten:</br></br>•	Beobachtung und Sicherstellung der Zielerreichung</br>•Monitoring & Qualitätsanalyse</br>• Coaching & Feedback</br>• Vorstellungsgespräche</br>• Disziplinargespräche.</br></br> Im Zeitraum von 6 Monaten konnte ich ein Team aus zum großen Teil neuangestellten Mitarbeitern so entwickeln, dass es im Schnitt auf Platz 2 im Gesamtprojekt lag. 3 Meiner damaligen Mitarbeiter konnte ich in weiterführende Positionen entwickeln.',
+        description: 'Als Teammanager habe ich ein Team vo 15-20 Mitarbeitern fachlich und disziplinarisch geführt und entwickelt./nMeine Aufgaben umfassten:/n/n•	Beobachtung und Sicherstellung der Zielerreichung/n•Monitoring & Qualitätsanalyse/n• Coaching & Feedback/n• Vorstellungsgespräche/n• Disziplinargespräche./n/n Im Zeitraum von 6 Monaten konnte ich ein Team aus zum großen Teil neuangestellten Mitarbeitern so entwickeln, dass es im Schnitt auf Platz 2 im Gesamtprojekt lag. 3 Meiner damaligen Mitarbeiter konnte ich in weiterführende Positionen entwickeln.',
         tags: ['Coaching','Mitarbeiterführung','KPI Management','Monitoring','Qualitätsanalyse'],
       },
       {
