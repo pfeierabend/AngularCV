@@ -1,6 +1,6 @@
 /* eslint-disable */
 export const FEATURE_TOGGLES = {
-  downloadable_pdf: true,
+  downloadable_pdf: false,
   tab_publications: false,
   tab_projects: true,
   tab_volunteering: false,
