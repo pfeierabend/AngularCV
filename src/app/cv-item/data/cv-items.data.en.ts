@@ -3,614 +3,277 @@ import { CvItem } from '../cv-item';
 /* eslint-disable max-len */
 export const GENERAL = {
   name: 'Patrick Feierabend',
-  position: 'Project Manager - ePMO EMEA',
-  description: `Sebastian started his career in IT as a QA Engineer during his studies of Computer Science at TU Berlin. After completing his master's thesis, Sebastian became a professional software engineer at Mister Spex doing backend as well as frontend development. Unhappy with the segregation between Operations and Development teams, he decided to transfer into Ops full time to get more insights. Having seen both sides of the wall of confusion, Sebastian became a strong advocate for DevOps principles and shared responsibility. He talked at code.talks and DevOpsCon about the topics DevOps, collaboration, feedback culture, and responsibilities.
+  position: 'IT Project & Team Manager',
+  description: `When I saw your job posting for experienced jungle guides (IT Project & Team Manager), I knew immediately that I had to apply. Over the past five years, I have acquired the skills necessary for this expedition.
 
-Sebastian am looking for new opportunities which include modern, progressive technologies in a collaborative working environment. Learning new things and trying out new stuff are part of his motivation. New roles are of interest if he can accompany the software end to end - from planning, implementation, deployment towards monitoring. Amplified feedback loops and a culture of continuous learning and experimentation define a proper working environment for him. Job offers outside of Berlin are not relevant to him.
-
-This website is designed to be a simple, self-hosted online-CV, based on Angular. To find out more about the project, please click on the AngularCV logo in the bottom right corner.`,
+  In recent years, I have successfully navigated through the thicket of project management, explored and overseen the IT jungles as a Senior OnSite Engineer, including setting up an IT Helpdesk. Furthermore, I have led a team through the jungle and developed them into skilled jungle guides. You can find further details about the mentioned expeditions and my previous professional experiences on the following pages. I would be happy to discuss them in more detail in a personal conversation.
+  
+  Although a separate cover letter is not required, I still find it helpful to summarize some key information:
+  
+  What I bring in addition to my experience:
+  
+  • A high degree of initiative and energy
+  • A pragmatic "hands-on" and "Getting Things Done" mentality
+  • An affinity for change
+  • A strong commitment to promoting and developing my team members
+  • I have a strong team focus and see myself as a supporter of the team as a manager
+  • Experience in developing operational processes based on KPIs and figures
+  • A positive worldview and the ability to inspire and motivate others
+  
+  What I expect from the position:
+  
+  • A team that wants to achieve the set goals together and a people-oriented atmosphere that supports this
+  • The opportunity to identify optimization potentials, convert them into projects in collaboration with the IT management, lead them independently, and successfully implement them
+  
+  Why I would like to work for Doc Check:
+  
+  • The role aligns with my skills and combines IT, team management, and project management in an optimal way
+  • The described corporate culture aligns with my values
+  • Doc Check offers job security
+  • I am looking forward to working in the medical environment
+  `,
 };
 /* eslint-enable max-len */
 
 export const CVITEMS: CvItem[] = [
   {
-    title: 'Netlight Consulting GmbH',
-    subtitle: 'IT Consultant - Associate Manager',
-    begin: '2019-01',
+    title: 'Foundever',
+    subtitle: 'Multiple positions',
+    begin: '2017-02',
     end: '',
-    description: 'Netlight is a genuine consulting firm. We refine the concept of IT-consulting to be about talents who, in cooperation, ' +
-      'create valuable results for our clients. To continue to grow locally and internationally, we are looking for motivated team ' +
-      'players & people with drive to join the Netlight team of inspiring, knowledgeable and emphatic talents. Currently we have offices ' +
-      'in Stockholm, Oslo, Munich, Helsinki, Berlin, Hamburg, Copenhagen, Zurich, Frankfurt, Amsterdam, and Cologne. ' +
-      'We are rapidly expanding on the European market.',
-    tags: ['Staff Engineer', 'Tech Leadership', 'Product Owner', 'Mentoring', 'Coaching'],
-    link: 'https://www.netlight.com',
-    thumbnail: 'Netlight_Consulting_logo.svg',
+    description: 'Foundever™ is one of the world leaders in outsourcing customer service.',
+    tags: [],
+    link: 'https://www.foundever.com',
+    thumbnail: 'foundever-logo.svg',
     positions: [
       {
-        title: 'Automotive Innovation Lab',
-        subtitle: 'Expert Software Engineer',
-        begin: '2023-08',
+        title: 'Project Manager',
+        subtitle: 'ePMO EMEA',
+        begin: '2022-06',
         end: '',
-        description: '',
-        tags: ['Python', 'Django', 'Git', 'KanBan', 'IntelliJ', 'Gitlab CI', 'Docker', 'Jira', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
+        description: 'manager, I am responsible for the successful implementation of new clients, the ramp-up phase of existing customers, and the management of internal projects. This includes strategic tasks such as customer communication and precise project timeline planning in close collaboration with various teams, including HR, IT Solutions, Quality, Operations, and more. During project execution, my primary focus is on strict adherence to milestones and consideration of the three key elements: time, quality, and finances. A crucial pillar of my success lies in continuous and consistent risk management as well as transparent communication with workstream leads and diverse internal and external stakeholders. Due to the quality of my initial projects, I was quickly entrusted with the responsibility for international programs. An outstanding example of this is the successful implementation of a client from the financial sector in Hyderabad, India, and Dakar, Senegal – a task that was handled in three different languages (further information in the "Projects" section). In my role as a project manager, I employ a PMO methodology tailored specifically to the BPO industry, based on PRINCE2 and PMBOK. My primary tool for efficient and transparent project management is Smartsheet. Through my extensive experience in project and program management, I have deepened my skills in project management, risk management, and international-level communication.',
+        tags: ['Projct Management','Team leadership','Leadership','Budget management','Risik management','client communication','Presentation','Smartsheet','Miro'],
       },
       {
-        title: 'Leading Global Audit Firm',
-        subtitle: 'Tech Lead & Technical Product Owner',
-        begin: '2022-07',
-        end: '2023-06',
-        description: 'Sebastian lead an engineering team which worked on the digitalization of audit workflows to make the audit process ' +
-          'easier, faster, more thorough, and less error-prone for the auditors. This is part of the global digitalization initiatives of the audit company.',
-        tags: ['Python', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Azure DevOps', 'Docker', 'Scrum', 'AWS', 'Confluence', 'Jenkins', 'bash'],
-      },
-      {
-        title: 'Automotive Mobility Provider',
-        subtitle: 'Tech Lead & Product Owner',
-        begin: '2021-01',
-        end: '2022-06',
-        description: 'Sebastian joined the team as a successor of two senior engineers to take over the role as a tech lead from them. In ' +
-          'this role, Sebastian was not only fulfilling the responsibilities of a full-stack engineer for the Python/React-based ' +
-          'applications but also took care of cross-team collaboration topics. Furthermore, Sebastian was actively driving the connection ' +
-          'between the tech leads of the development teams with the CTO as well as with the group of product owners in order to align and ' +
-          'discuss the overall IT strategy. Additionally, Sebastian took the role of the team\'s interim PO for two months.',
-        tags: ['React', 'Python', 'FastAPI', 'PostgreSQL', 'Kubernetes', 'Git', 'KanBan', 'IntelliJ', 'Docker', 'Jira', 'Scrum',
-          'Confluence', 'GitHub Actions'],
-      },
-      {
-        title: 'Leading German Price Comparison Website',
-        subtitle: 'Senior Lead Software Engineer & Architect',
+        title: 'Senior OnSite Engineer',
+        subtitle: 'Technical site management',
         begin: '2019-08',
-        end: '2020-12',
-        description: 'Sebastian joined a team running a monolithic application that relied on a shared Oracle database. The team ' +
-          'decided to have a dedicated MongoDB database would be populated by consuming different Kafka topics. Furthermore, Sebastian ' +
-          'helped with the team\'s agile routines and team culture by re-introducing things like pair-programming and team retrospectives.' +
-          '\n\n' +
-          'After the successful migration project and establishing himself as a valuable engineer and architect, Sebastian was ' +
-          'asked to join the team responsible for replacing the legacy product page variants with a modern tech-stack. ' +
-          'Sebastian was brought in to evaluate the architecture decisions made so far together with the team. ' +
-          'Additionally, Sebastian helped to evaluate and improve the team\'s routines and practices for collaboration. ' +
-          'Sebastian supported the hiring process to find the best fit for an open senior backend engineer position in the team.' +
-          '\n\n' +
-          'With the experience of conducting the architecture review before, Sebastian was asked to join ' +
-          'another team to support their effort of rewriting the checkout applications.' +
-          'Sebastian joined the team with the focus on the architecture design for the new checkout, based on a modern tech stack. Meanwhile, he also ' +
-          'encouraged more automation, e.g. in regards to regular dependency updates jobs. ' +
-          'Sebastian also supported the recently joined team lead with the hiring process and conducting full-day team workshops.',
-        tags: ['Java', 'SpringBoot', 'React', 'Kafka', 'MongoDB', 'Kubernetes', 'Git', 'IntelliJ', 'Docker', 'GraphQL', 'Jira', 'Scrum', 'AWS', 'Openshift', 'Confluence', 'Jenkins', 'bash'],
+        end: '2022-05',
+        description: 'In my previous position as a Senior OnSite Engineer, I was responsible for the smooth operation of up to 1800 workstations at the locations in Krefeld and Düsseldorf. I led the IT Onsite team and held technical overall responsibility for both sites. My responsibilities included workstation maintenance and troubleshooting, the technical implementation of new customer projects, setting up and cabling workstations, and close collaboration with specialty teams such as Networking and Voice. Additionally, I led major projects to enhance our IT support structure in Germany, including the successful establishment of a Work-at-Home (W@H) Helpdesk and our nationwide W@H Fulfillments. Furthermore, I was responsible for setting up and maintaining virtual workstations using AWS. This position allowed me to deepen my skills in team management, technical project execution, and problem-solving. My experience in large-scale projects to improve the IT infrastructure has strengthened my abilities in strategic planning and implementation.',
+        tags: ['Active Directory','Windows Server','Troubleshooting','IT management','IT project management','Endpoint','AWS','Employee management','talent development'],
       },
       {
-        title: 'Leading German Real Estate Platform',
-        subtitle: 'Software Engineer & Cloud Architect',
-        begin: '2019-01',
+        title: 'Team manager',
+        subtitle: 'Employee leadership and development',
+        begin: '2018-09',
         end: '2019-07',
-        description: 'Sebastian was part of the Team responsible for the search result list and expose view of the real estate entries. ' +
-          'In addition to feature development, Sebastian also supported the team to migrate services still running in the on-premise ' +
-          'datacenter to AWS.' +
-          '\n\n' +
-          'Sebastian later became part of a newly formed team to automate a PoC solution which relied heavily on manual efforts. ' +
-          'In this team, he took responsibility to architect and implement the new, automated solution and its serverless AWS cloud infrastructure.',
-        tags: ['Java', 'SpringBoot', 'Git', 'IntelliJ', 'Docker', 'Maven', 'Jira', 'REST', 'API', 'SNS/SQS', 'Lambda', 'DynamoDB', 'Scrum', 'AWS', 'Confluence', 'TeamCity', 'Jenkins', 'BitBucket', 'bash'],
+        description: 'In the role of a team leader, I was responsible for the professional leadership and development of a team consisting of 15-20 employees, both in terms of their professional and disciplinary aspects. My tasks included strategic monitoring and ensuring goal achievement, continuous quality analysis, providing individual coaching and constructive feedback, conducting structured interviews for selecting new team members, as well as conducting disciplinary discussions when necessary. Within a 6-month period, I successfully developed a team, largely comprised of newly hired employees, to the point where it consistently ranked second in the overall project. Additionally, I successfully promoted three of my former employees to more advanced positions. This experience deepened my competencies in team management and personnel development.',
+        tags: ['Coaching','Employee management','Team management','KPI management','Monitoring','Quality analysis','employee development'],
+      },
+      {
+        title: '2nd level customer service representative',
+        subtitle: 'for a leading online auction house',
+        begin: '2017-02',
+        end: '2018-08',
+        description: '',
+        tags: ['Communication','Troubleshooting','De-escalation','Customer service'],
       },
     ],
   },
   {
-    title: 'Mister Spex GmbH',
-    subtitle: 'Professional Software Engineer',
-    begin: '2015-06',
-    end: '2018-12',
-    description: '',
-    tags: ['Cloud', 'Infrastructure', 'Microservice', 'Architecture', 'Backend', 'Fullstack', 'Operations', 'DevOps Culture'],
-    link: 'https://www.misterspex.com',
-    thumbnail: 'msx-logo.png',
-    positions: [
-      {
-        title: 'Webshop Operations',
-        subtitle: 'Cloud / Infrastructure',
-        begin: '2017',
-        end: '2018-12',
-        description: 'Maintaining and operating the platform running the e-commerce shop. ' +
-          'Automating processes and enabling the development teams to fully own their application. ' +
-          'Securing the cloud-based infrastructure against hacker attacks. ' +
-          'Planned and executed the migration of several services to the cloud, including the main webshop application.',
-        tags: ['GitLab CI', 'Git', 'Docker', 'Jira', 'KanBan', 'AWS', 'Confluence', 'Bamboo', 'Kubernetes', 'Ansible', 'Python', 'Apache HTTPD', 'bash', 'PyCharm'],
-      },
-      {
-        title: 'Webshop Development',
-        subtitle: 'Backend and Frontend',
-        begin: '2015-06',
-        end: '2017',
-        description: 'Implementing features for the e-Commerce platform Intershop in order to customize it. ' +
-          'Developing a separated API as microservice in a DevOps way, which is responsible for price calculation and ' +
-          'feature configuration of prescription glasses. Later switched to the operations team. ',
-        tags: ['Intershop', 'Java', 'Git', 'Jira', 'Scrum', 'Javascript', 'Maven', 'jQuery', 'AWS', 'Confluence', 'Bamboo', 'GitLab', 'Oracle PL/SQL', 'eclipse', 'bash', 'TDD'],
-      },
-    ],
-  },
-  {
-    title: 'Mister Spex GmbH',
-    subtitle: 'Working student Product Management / Quality Assurance',
-    begin: '2012-10',
-    end: '2015-05',
-    description: 'Ensuring the quality and functionality of the web shop, ERP software and their interfaces. ' +
-      'Planning and conduct releases.',
-    tags: ['Selenium', 'Scrum', 'Quality Assurance', 'Release Management', 'Testrail', 'Subversion', 'trac', 'Microsoft Dynamics NAV'],
-    link: 'https://www.misterspex.com',
-    thumbnail: 'msx-logo.png',
-  },
-  {
-    title: 'Müllers Fanshop',
-    subtitle: 'Merchandising salesman at O2World Berlin',
-    begin: '2010-08',
-    end: '2012-09',
-    description: 'Selling merchandising for sport events and concerts. Responsibility over one of the sale points.',
+    title: 'Feierabend KFZ Überführungen (Feierabend Car transfers)',
+    subtitle: 'Self-employed entrepreneur',
+    begin: '2014-09',
+    end: '2017-01',
+    description: 'In the period from 2014 to 2017 I worked as an independent entrepreneur in the transport business. My main business was the transport of high quality used cars on own axle, which were sold from Germany to other EU countries. My clients consisted of the selling car dealerships as well as specialized agencies for international car brokerage. During this job I gained valuable experience in customer acquisition, contract negotiation and pricing. This role allowed me to deepen my sales acquisition and customer relations skills, and I developed an understanding of running a business.',
+    tags: ['Management','Client acquisition','Client communication','Business administration','Pricing','Company management'],
     link: '',
-    thumbnail: 'muellers_fanshop_logo_001.jpg',
+    thumbnail: 'cartransport_logo.png',
   },
   {
-    title: 'MBU Merchandising und Sportreisen GmbH & Co. KG',
-    subtitle: 'Merchandising salesman at O2World Berlin',
-    begin: '2008-09',
-    end: '2010-07',
-    description: 'Selling merchandising for sport events and concerts. Responsibility over one of the sale points.',
-    link: '',
-    thumbnail: 'mbu.png',
+    title: 'Commerz Finanz GmbH (today: Consors Finanz)',
+    subtitle: 'Credit & receivables management specialist',
+    begin: '2011-09',
+    end: '2014-08',
+    description: 'As a specialist in accounts receivable management, my primary responsibility was to negotiate effective repayment agreements with delinquent customers. This role particularly required me to handle end customers with sensitivity and emotional intelligence, even in challenging situations. During this role, I was able to develop valuable skills in conflict resolution and customer relationship management. The ability to demonstrate understanding and empathy in difficult situations helped me to successfully collaborate with customers in order to find viable solutions. These experiences deepened my interpersonal skills and sensitized me to handling demanding customer interactions.',
+    tags: ['Receivables management','Emotional intelligence','Customer relationship management','Conflict resolution'],
+    link: 'https://www.consorsfinanz.de/',
+    thumbnail: 'commerzfinanz-logo.png',
   },
 ];
 
 export const CERTIFICATES: CvItem[] = [
   {
-    title: 'AWS Cloud Practitioner',
-    subtitle: 'Amazon Web Services (AWS)',
+    title: 'Enterprise Design Thinking Practitioner',
+    subtitle: 'IBM',
     begin: '',
-    end: '2018-11-26',
+    end: '2023-01',
     description: '',
-    link: 'https://www.youracclaim.com/badges/feda3cd6-424a-4874-804f-60cb005aa546',
-    thumbnail: 'AWS_certified_cloud_practitioner.png',
-    attachment: 'AWS_Certified_Cloud_Practitioner_certificate.pdf',
-  },
-  {
-    title: 'Intershop Development',
-    subtitle: 'Intershop Communications AG',
-    begin: '',
-    end: '2015-04',
-    description: 'Overview (IS7-100), Intershop Frontend Development (IS7-114), Intershop Backend Programming (IS7-118)',
-    link: 'https://www.intershop.de/',
-    thumbnail: 'intershop.svg',
-    attachment: 'ISH_Development_Training_2015.pdf',
-  },
-  {
-    title: 'Git version control basics',
-    subtitle: 'Mister Spex GmbH',
-    begin: '',
-    end: '2014-05-12',
-    description: '',
-    thumbnail: 'Git-Logo-2Color.png',
+    thumbnail: 'ibm-logo.jpeg',
     attachment: '',
   },
   {
-    title: 'ITIL v3 Foundation Certificate',
-    subtitle: 'TÜV SÜD Akademie',
+    title: 'Operational excellence - basics',
+    subtitle: 'LinkedIn',
     begin: '',
-    end: '2012-07-02',
+    end: '2021-07',
     description: '',
-    thumbnail: 'itil_foundation.png',
-    attachment: 'ITIL-Zertifikat_2012.pdf',
+    thumbnail: 'li-logo.jpeg',
+    attachment: '',
   },
   {
-    title: 'Test of English as foreign language (TOEFL) - ITP',
-    subtitle: 'LTS Language & Testing Service',
+    title: 'Practical training moderation & presentation',
+    subtitle: 'Moderatorenschule Baden-Württemberg (Moderator School Baden-Württemberg)',
     begin: '',
-    end: '2011-08-31',
+    end: '2021-06',
     description: '',
-    thumbnail: 'ETS_TOEFL_ITP.png',
-    attachment: 'LTS_TOEFL ITP-Zertifikat_2011.pdf',
+    thumbnail: 'logo-mbw-web.svg',
+    attachment: '',
+  },
+  {
+    title: 'Team manager certification',
+    subtitle: 'Sitel (today: Foundever)',
+    begin: '',
+    end: '2019-06',
+    description: '',
+    thumbnail: 'sitel-logo.png',
+    attachment: '',
   },
 ];
 
 export const EDUCATION: CvItem[] = [
   {
-    title: 'Technische Universität Berlin',
-    subtitle: 'Master of Science | Computer Science',
-    begin: '2011-10',
-    end: '2015-04',
-    description: '',
-    tags: ['Scrum', 'Subversion', 'Git', 'Java', 'Scala', 'eclipse', 'Lua', 'Maven'],
-    link: 'https://www.tu-berlin.de',
-    thumbnail: 'TU-Berlin-Logo.png',
+    title: 'Foundever',
+    subtitle: 'Foundever top-talent program',
+    begin: '2021-01',
+    end: '',
+    description: 'Currently, I am in the third year of the Foundever Top-Talent Program, an exclusive program where each year a handful of promising talents is selected to undergo a three-year development cycle. As part of this program, I have completed a wide range of internal and external workshops for personal development. These workshops covered topics such as self-efficacy, resilience, time management, and leadership skills. Furthermore, I worked closely with other talents on group projects. These projects included the design of an internal proposal system and the development of an innovative business model for a BPO company. These experiences within the talent program significantly expanded my skills in teamwork, creative thinking, and project management.',
+    tags: ['Self-efficacy','Resilience','Mindfulness','Management','Leadership'],
+    link: 'http://foundever.life/cv9',
+    thumbnail: 'foundever-logo.svg',
   },
   {
-    title: 'Technische Universität Berlin',
-    subtitle: 'Bachelor of Science | Computer Science',
-    begin: '2008-10',
-    end: '2011-12',
+    title: 'HAN Hogeschool van Arnhem en Nijmegen',
+    subtitle: 'Social work study',
+    begin: '2010-02',
+    end: '2011-08',
     description: '',
-    tags: ['Scrum', 'Subversion', 'Java', 'C', 'Assembler', 'eclipse', 'Opal', 'ant'],
-    link: 'https://www.tu-berlin.de',
-    thumbnail: 'TU-Berlin-Logo.png',
+    tags: [],
+    link: 'https://www.hanuniversity.com/de/',
+    thumbnail: 'han_university.svg',
+  },
+  {
+    title: 'Städtisches Meerbusch Gymnasium (Meerbusch Municipal High School)',
+    subtitle: 'Fachabitur in the field of social work/health care',
+    begin: '1999-08',
+    end: '2010-01',
+    description: '',
+    tags: [],
+    link: 'https://www.smg-meerbusch.de/',
+    thumbnail: 'smg-logo.png',
   },
 ];
 
 export const LANGUAGES = [
   // RATE YOURSELF  =>  100% = NATIVE;  80-99% = FLUENT;  60-79% = ADVANCED;  40-59% = INTERMEDIATE;  20-39% = ELEMENTARY;  0-19% = BEGINNER
-  { title: 'German | Deutsch', level: '100' },
-  { title: 'English', level: '80' },
-  { title: 'Italian | Italiano', level: '70' },
-  { title: 'French | Français', level: '30' },
-  { title: 'Swedish | Svenska', level: '15' },
+  { title: 'German', level: '100' },
+  { title: 'Englisch | English', level: '85' },
 ];
 
 export const PROJECTS: CvItem[] = [
   {
-    title: 'RatS',
-    subtitle: 'Script for transfering personal movie ratings from one site to another',
-    begin: '2017-02',
+    title: 'DE IT-helpdesk',
+    subtitle: 'Planning and establishment of an IT helpdesk for 1st-level support for Work-at-Home employees.',
+    begin: '2021-04',
+    end: '2022-04',
+    description: 'Due to the COVID-19 pandemic, we transitioned 80% of our employees to remote work within three months. This transition presented significant challenges for our existing IT infrastructure, which was previously focused on on premise troubleshooting. In collaboration with our IT lead in Germany, I took the initiative to address these challenges. Together, we drove the conceptualization and implementation of a 1st-level helpdesk. In my role, I was responsible for defining the helpdesks tasks, led the team selection process, and personally designed and conducted the on-site training at our Dessau location. Since its introduction, the helpdesk has consistently gained importance and has reduced technical downtime for Work-at-Home (W@H) employees by over 65%. This experience significantly strengthened my skills in project management, team leadership, and solution development.',
+    tags: ['Project management','IT-helpdesk','Solutioning'],
+    link: '',
+    thumbnail: 'helpdesk-logo.png',
+  },
+  {
+    title: 'Customer service implementation for a large automotive bank',
+    subtitle: '',
+    begin: '2023-05',
     end: '',
-    description: 'This Python project offers an easy way of synchronizing personal movie ratings from one site (e.g. IMDB) ' +
-      'to another (e.g. Trakt). The script supports 13 sites currently and is constantly expanding.',
-    tags: ['Python', 'Git', 'Docker', 'Selenium', 'Beautifulsoup', 'JSON', 'CSV'],
-    link: 'https://github.com/StegSchreck/RatS',
-    thumbnail: 'RatS.png',
+    description: 'Currently, I am serving as a Program Manager, overseeing the takeover of customer service for six business units of one of the largest automotive banks, all done remotely in Germany and Greece. Over a span of two years, we are implementing this highly complex and diverse service area with a team of approximately 300 employees. Following the successful transition of the first service units, I am pleased to report that the customer feedback has been consistently positive. We achieved this result through excellent planning, with the training department playing a particularly crucial role. Outstanding coordination within the team enabled us to identify and address challenges early on.',
+    tags: ['Program management', 'Team coordination', 'Customer feedback', 'Excellent planning', 'Problem solving'],
+    link: '',
+    thumbnail: 'bank_logo.jpg',
   },
   {
-    title: 'AngularCV',
-    subtitle: 'A simple self-hosted online-CV',
-    begin: '2017-09',
-    end: '',
-    description: 'This project was created for the purpose of having a basic online-CV, which anyone can host by themselves. ' +
-      'This very website is the result of it.',
-    tags: ['Angular', 'MaterialDesign', 'GitHub', 'CSS', 'TypeScript', 'JetBrains WebStorm', 'AWS', 'jsPDF', 'npm'],
-    link: 'https://github.com/StegSchreck/AngularCV',
-    thumbnail: '../AngularCV.svg',
+    title: 'Implementation of customer service for a global financial services provider',
+    subtitle: '',
+    begin: '2022-12',
+    end: '2023-06',
+    description: 'Ich erhielt den Auftrag, den Kundenservice für einen internationalen Versandtransaktionsdienstleister in den Sprachen Französisch und Wolof am Standort in Dakar zu implementieren, während ich gleichzeitig die Umsetzung in Englisch am Standort in Hyderabad koordinierte. Dies erwies sich als äußerst anspruchsvolle Aufgabe, da wir nur drei Wochen Zeit von Projektbeginn bis zum ersten Training hatten. Hinzu kam, dass unsere herkömmlichen IT-Lösungen nicht den Anforderungen des Kunden entsprachen. Zusätzlich befand sich der Dienstleister zu diesem Zeitpunkt in einer umfangreichen internen Umstrukturierung und verfügte nicht über ein Konzept zur Qualitätssicherung im Kundenservice. Darüber hinaus waren die bereitgestellten Schulungsmaterialien des Kunden ausschließlich in englischer Sprache verfügbar. Durch eine sorgfältige Due-Diligence-Phase konnten wir diese Herausforderungen frühzeitig erkennen und mithilfe eines effektiven Risikomanagements rechtzeitig vor dem Go-Live bewältigen. Aufgrund der Zufriedenheit des Kunden konnten wir innerhalb eines halben Jahres erheblich mehr Volumen übernehmen und die geplante Anzahl von 80 Arbeitsplätzen auf 140 erhöhen.',
+    tags: ['Program management', 'Project management', 'Risk management', 'International collaboration', 'Due diligence'],
+    link: '',
+    thumbnail: 'financial-logo.jpg',
   },
   {
-    title: 'UberPage',
-    subtitle: 'A simple self-hosted website as overview on different self-defined links',
-    begin: '2019-07',
-    end: '',
-    description: 'This project aims to offer a simple overview website for different links.',
-    tags: ['React', 'Javascript', 'GitHub', 'CSS', 'JetBrains WebStorm', 'AWS', 'npm'],
-    link: 'https://github.com/StegSchreck/uberpage',
-    thumbnail: 'UberPage_kompakt.png',
+    title: 'Establishment of Fulfillment Center',
+    subtitle: 'Establishment of Hardware Fulfillment for ~7000 Work-at-Home Employees',
+    begin: '2021-08',
+    end: '2022-05',
+    description: 'Another challenge that arose during the Covid-19 pandemic and the shift to remote work for approximately 7000 employees was the efficient management of regular hardware shipments and the replacement of defective devices. This was a task for which we were not previously prepared. In close collaboration with our newly appointed director for Work-at-Home, I drove the conceptualization and implementation of a W@H Fulfillment Center at our Krefeld location. My responsibilities included preselecting the appropriate inventory management software and continuously optimizing and evolving it. Additionally, I was in charge of selecting qualified personnel and providing technical training. Today, the Fulfillment Center is an integral part of our W@H philosophy. While hardware shipment requests previously required 3-10 days for processing, they are now fulfilled on the same day in 90% of cases if received before 12:00 PM. This project strengthened my skills in project management, process optimization, and team development. I am confident that my expertise in handling complex logistical challenges and my ability to develop and implement innovative solutions can make a valuable contribution to your company.',
+    tags: ['Project management', 'Process optimization', 'Team leadership', 'Solution development', 'Logistics'],
+    link: '',
+    thumbnail: 'fulfillment-logo.png',
   },
-  {
-    title: 'PP-Auxmoney-Parser',
-    subtitle: 'Python based parser for Auxmoney to import to Portfolio Performance',
-    begin: '2019-07',
-    end: '',
-    description: 'This script creates a CSV with the interests you received for your investments at Auxmoney. ' +
-      'The CSV is created in a format to be imported to Portfolio Performance.',
-    tags: ['Python', 'Git', 'Selenium', 'Beautifulsoup', 'CSV'],
-    link: 'https://github.com/StegSchreck/PP-Auxmoney-Parser',
-    thumbnail: 'PP-Auxmoney-Parser.png',
-  },
-  {
-    title: 'IS24 Price Per Area',
-    subtitle: 'Chrome extension to display the price per m² on ImmoScout',
-    begin: '2020-02',
-    end: '',
-    description: 'Show price per m² on the search result pages, the shortlist page, and the expose pages of ImmobilienScout24. ' +
-      'The extension also allows a colored highlighting with customizable thresholds.' +
-      'Not affiliated with ImmobilienScout24 GmbH.',
-    tags: ['Javascript', 'CSS', 'MaterialDesign', 'Chrome'],
-    link: 'https://github.com/StegSchreck/is24-price-per-area',
-    thumbnail: 'is24-price-per-area.svg',
-  },
-  {
-    title: 'Recoding Aviation Hackathon',
-    subtitle: 'Hackathon for improving the passenger journey for flights',
-    begin: '',
-    end: '2017-06',
-    description: 'Sebastian participated in this hackathon together with three collegues. ' +
-      'They develpoed an idea how the passenger can be relieved from stress and anxiety at an airport. ' +
-      'The idea was named \'Unwait the airport\'. The resulting idea convinced the technical experts of the Munich Airport, ' +
-      'which awarded their partner prize.',
-    tags: ['Angular 2', 'MaterialDesign', 'Git', 'NodeJS', 'ACI ACRIS Seamless Tavel API', 'Express.js', 'MongoDB', 'twilio'],
-    link: 'https://github.com/StegSchreck/RecodingAviation',
-    thumbnail: 're-coding-avation-ba.png',
-  },
-  {
-    title: 'OFM Helper',
-    subtitle: 'Support for analysis of data in football management browser game \'OFM\'',
-    begin: '2016-05',
-    end: '2017-05',
-    description: 'OFM is a browser game where you manage a football team. ' +
-      'The \'OFM Helper\' helps the user to analyse the data which emerges from matches, trainings, etc. ' +
-      'We formed a two-man team for developing this project.',
-    tags: ['Python', 'Django', 'Git', 'Selenium', 'Beautifulsoup', 'TDD', 'Docker'],
-    link: 'https://www.ofmhelper.de/',
-    thumbnail: 'OFM_Helper.png',
-  },
-  {
-    title: 'GoOLAP.info',
-    subtitle: 'Fact search engine',
-    begin: '2010',
-    end: '2011',
-    description: 'GoOLAP is a fact search engine, which crawls the web and combines relevant data using natural language processing. ' +
-      'It is a research project at the DIMA department of TU Berlin. ' +
-      'Sebastian was part of the team which was responsible of the project management. ' +
-      'Later he wrote his bachelor thesis about the data persistence layer of the application.',
-    tags: ['Project Managemant', 'Hadoop', 'MySQL', 'Mantis'],
-    link: 'http://goolap.info/',
-    thumbnail: 'TU_DIMA_GoOLAP.png',
-  },
-  {
-    title: 'Global Phenological Monitoring Programm (GPM)',
-    subtitle: 'Web-application for the Humboldt University',
-    begin: '',
-    end: '2010',
-    description: 'The GPM is a global program for monitoring specific plants and analysing their behavior in the context of ' +
-      'weather data. The web-application was created during a project course at the TU Berlin, which Sebastian took part at.',
-    tags: ['Java', 'JSF', 'JSP', 'Subversion', 'Scrum', 'Trac', 'Spring', 'ant'],
-    link: 'http://gpm.hu-berlin.de/',
-    thumbnail: 'Huberlin-logo.png',
-  },
+
+
 ];
 
 export const VOLUNTEERING: CvItem[] = [
-  {
-    title: 'DFB cup finals & international matches',
-    subtitle: 'Admission, visitor services, VIP support, stand-by man, special tasks',
-    begin: '2007',
-    end: '2016',
-    description: 'Admission, visitor services, VIP support, stand-by man, special tasks',
-    link: 'https://www.dfb.de',
-    thumbnail: 'DFB-Logo.jpg',
-  },
-  {
-    title: 'ISTAF & ISTAF Indoor',
-    subtitle: 'Team lead',
-    begin: '2007',
-    end: '2016',
-    description: 'Technical setup, visitor service, security, special tasks, teardown',
-    link: 'https://www.istaf.de',
-    thumbnail: 'ISTAF.png',
-  },
-  {
-    title: 'UEFA Champions League Finals 2015 Berlin',
-    subtitle: 'Team lead',
-    begin: '',
-    end: '2015',
-    description: 'Team lead visitor service',
-    link: 'https://www.uefa.com',
-    thumbnail: 'UEFA_Champions_League-logo.png',
-  },
-  {
-    title: 'CEV Champions League Final Four 2015 Berlin',
-    subtitle: 'Team lead',
-    begin: '',
-    end: '2015',
-    description: 'Team lead backstage security',
-    link: 'https://www.cev.lu/',
-    thumbnail: 'CEV_Champions_League_logo.png',
-  },
-  {
-    title: 'German indoor rowing series',
-    subtitle: 'Technical event manager',
-    begin: '2010',
-    end: '2015',
-    description: 'Technical setup and time measurements',
-    link: 'https://www.concept2.de/indoor-rowers/indoor-regatten/dirm',
-    thumbnail: 'dirs_logo.jpg',
-  },
-  {
-    title: 'Ruder-Bundesliga',
-    subtitle: 'Time measurement',
-    begin: '2009',
-    end: '2015',
-    description: 'Technical setup and time measurements for rowing Bundesliga.',
-    link: 'https://www.ruder-bundesliga.de',
-    thumbnail: 'Logo-Bundesliga_quer.jpg',
-  },
-  {
-    title: 'Deutsche Ruderjugend im Deutschen Ruderverband',
-    subtitle: 'Youth trainer and youth leader',
-    begin: '2007',
-    end: '2014',
-    description: 'Taking care of young rowers in training camps, recreational rowing tours, camp for visiting the Olympic Games.',
-    link: 'https://www.ruderjugend.org',
-    thumbnail: 'DRJ_Logo.jpg',
-  },
-  {
-    title: 'FISA World Rowing Junior Championships 2014 Hamburg',
-    subtitle: 'IT network setup',
-    begin: '',
-    end: '2014',
-    description: '',
-    link: 'https://www.worldrowing.com/',
-    thumbnail: 'FISA_JWM_2014.png',
-  },
-  {
-    title: 'Hertha BSC',
-    subtitle: 'Visitor services, special tasks, team lead',
-    begin: '2008',
-    end: '2011',
-    description: 'Guiding visitors of home matches in the olympic stadium in Berlin. Lastly, as team lead.',
-    link: 'https://www.hertha.de/',
-    thumbnail: 'Hertha_BSC_Logo.svg',
-  },
-  {
-    title: 'IAAF World Championships 2009 Berlin',
-    subtitle: 'Anti-Doping-Chaperone',
-    begin: '',
-    end: '2009',
-    description: '',
-    link: 'https://www.iaaf.org/',
-    thumbnail: 'IAAF_2009_in_Berlin.png',
-  },
-  {
-    title: 'ULEB Euroleague Final Four 2009 Berlin',
-    subtitle: 'Team delegate',
-    begin: '',
-    end: '2009',
-    description: 'Team delegate of a basketeball team of Montepaschi Siena, Italy',
-    link: 'https://www.euroleague.net/',
-    thumbnail: 'ULEB_FinalFour_2009.png',
-  },
-  {
-    title: 'FIFA World Cup 2006 Germany',
-    subtitle: 'Visitor service',
-    begin: '',
-    end: '2006',
-    description: 'Guiding visitors of the olympic stadium in Berlin.',
-    link: 'https://www.fifa.com/',
-    thumbnail: 'fifa_world_cup_2006.jpg',
-  },
+ 
 ];
 
 export const CONTACT = {
-  city: 'Berlin, Germany',
+  city: 'Krefeld, Germany',
   phone: '',
-  mail: 'sebastian@schreck.berlin',
+  mail: 'patrick@pfeierabend.de',
   skype: '', // just the account name
-  linkedin: 'https://www.linkedin.com/in/sebastian-schreck-050739131/', // full url
-  xing: 'https://www.xing.com/profile/Sebastian_Schreck2', // full url
-  github: 'https://github.com/StegSchreck', // full url
-  stackoverflow: 'https://stackoverflow.com/users/story/6538600', // full url
-  twitter: 'https://twitter.com/StegSchreck', // full url
+  linkedin: 'https://www.linkedin.com/in/patrick-feierabend-b0a565171/', // full url
+  xing: '', // full url
+  github: '', // full url
+  stackoverflow: '', // full url
+  twitter: '', // full url
   facebook: '', // full url
   instagram: '', // full url
   other: [
-    { title: 'Medium', icon: 'icon-medium', link: 'https://medium.com/@stegschreck' },
-    { title: 'GitHub Page', icon: 'icon-github', link: 'https://stegschreck.github.io' },
-    { title: 'GitLab Page', icon: 'icon-gitlab', link: 'https://stegschreck.gitlab.io' },
   ],
 };
 
 export const INTERESTS = [
   {
-    title: 'Cycling',
-    icon: 'directions_bike',
+    title: 'Family',
+    icon: 'child_care',
   },
   {
-    title: 'GeoCaching',
-    icon: 'not_listed_location',
+    title: 'PC Gaming',
+    icon: 'computer',
   },
   {
-    title: 'Open Source Software',
+    title: 'Chess',
+    icon: 'timer',
+  },
+  {
+    title: 'Music',
+    icon: 'play',
+  },
+  {
+    title: 'Badminton',
+    icon: 'sports_tennis',
+  },
+  {
+    title: 'Programming',
     icon: 'code',
-  },
-  {
-    title: 'Reading',
-    icon: 'icon-book',
-  },
-  {
-    title: 'Rowing',
-    icon: 'rowing',
-  },
-  {
-    title: 'Photography',
-    icon: 'camera_alt',
-  },
-  {
-    title: 'Volunteering in sports',
-    icon: 'favorite',
   },
 ];
 
 export const PUBLICATIONS: CvItem[] = [
-  {
-    title: 'How to Touch the Cloud',
-    subtitle: 'Article published on Medium / MakeItNew.io',
-    begin: '',
-    end: '2019-10-03',
-    description: 'Different Possibilities on How to Interact with AWS',
-    tags: ['AWS', 'Python', 'Ansible', 'Terraform', 'S3', 'CloudFormation', 'SDK', 'CLI'],
-    link: 'https://makeitnew.io/how-to-touch-the-cloud-d08bcf14debe',
-    thumbnail: 'Medium_MakeItNew.png',
-  },
-  {
-    title: 'The Speaker at the End of the Universe',
-    subtitle: 'Article published on Medium',
-    begin: '',
-    end: '2019-05-27',
-    description: 'How to Give a Talk at a Tech Conference',
-    tags: ['conference', 'speaker', 'public speaking'],
-    link: 'https://medium.com/@stegschreck/the-speaker-at-the-end-of-the-universe-6fb8565587b6',
-    thumbnail: 'Medium.svg',
-  },
-  {
-    title: 'The Hitchhiker’s Guide to a Tech Conference',
-    subtitle: 'Article published on Medium',
-    begin: '',
-    end: '2019-05-20',
-    description: 'A little How-To for Engineers how to visit a Tech Conference',
-    tags: ['conference', 'visitor', 'attendee'],
-    link: 'https://medium.com/@stegschreck/the-hitchhikers-guide-to-a-tech-conference-983c29b1e9ef',
-    thumbnail: 'Medium.svg',
-  },
-  {
-    title: 'Tear Down This Wall! - Overcoming Collaboration Obstacles on Your DevOps Journey',
-    subtitle: 'Article published on Medium / MakeItNew.io',
-    begin: '',
-    end: '2019-04-17',
-    description: 'A summary of our Talk \'Tear Down This Wall!\' given at Code.Talks Commerce Special 2018 in Berlin ' +
-      'and DevOpsCon 2018 in Berlin about how we enable more collaboration in our IT teams at Mister Spex.',
-    tags: ['DevOps', 'culture', 'collaboration', 'communication', 'microservices'],
-    link: 'https://makeitnew.io/tear-down-this-wall-c2211141fdb5',
-    thumbnail: 'Medium_MakeItNew.png',
-    attachment: 'tear-down-this-wall.pdf',
-  },
 ];
 
 export const TALKS: CvItem[] = [
-  {
-    title: 'Something, Something... DevOps - A Tale of two developers',
-    subtitle: '20 min. @ Netlight EdgeX Vol. 8 - Mi Casa Es Su Casa',
-    begin: '',
-    end: '2020-11-19',
-    description: 'The term "DevOps" has been around for a few years now. Yet, there are still misconceptions and uncertainties around it. We invite you to experience the stories of two developers from different realms to spark your curiosity about the mindset and values behind that sometimes mysterious buzzword "DevOps".',
-    tags: ['DevOps', 'Culture', 'Collaboration', 'Communication', 'Enablement'],
-    thumbnail: 'Netlight_EdgeX_MiCasaEsSuCasa.png',
-  },
-  {
-    title: 'Looking at a New-Born Star Through the Telescope: Architecture Review Approach at idealo',
-    subtitle: '20 min. @ Netlight EdgeX Urknall',
-    begin: '',
-    end: '2020-06-17',
-    description: 'After starting a new project on a green field, you sometimes wonder if you made the right choices at the beginning. This talk will give you an overview of how idealo\'s team product page took a step back and reviewed their early architecture decisions considering the learnings made on the way.',
-    tags: ['Architecture', 'Arc42'],
-    thumbnail: 'NetlightEdgeXUrknall.png',
-  },
-  {
-    title: 'Bringing a complex stack to the cloud - Our journey and lessons learned',
-    subtitle: '45 min. @ AWS Startup Day Berlin 2018',
-    begin: '',
-    end: '2018-10-09',
-    description: 'Mister Spex moved away from AWS to an on-premises infrastructure in 2015. In 2018 they switched back to AWS. This talk covers the story of these changes and the lessons learned.',
-    tags: ['AWS', 'cloud', 'migration'],
-    thumbnail: 'AWS_Startup_Day.png',
-  },
-  {
-    title: 'Tear down this wall! - Overcoming collaboration obstacles on your DevOps journey',
-    subtitle: '60 min. @ DevOpsCon Berlin 2018',
-    begin: '',
-    end: '2018-05-29',
-    description: 'The discussion about DevOps is often focusing solely on the tooling aspect: automation, ' +
-      'continuous integration & delivery; and monitoring. But automation and monitoring will only get you so far on ' +
-      'your DevOps journey. The first and arguably hardest thing to master in DevOps is getting your work from ' +
-      'inception into the hands of the customer fast. It requires your engineers to work hand in hand to ensure the ' +
-      'stability of the software as well as the systems it runs on. This talk focuses on the organizational ' +
-      'aspects of DevOps: How to measure and improve your team\'s effectiveness by reducing silos and silo thinking and ' +
-      'how to get your engineers to share responsibility - a basis for every successful DevOps transformation.',
-    tags: ['DevOps', 'culture', 'collaboration', 'communication', 'microservices', 'team structure'],
-    link: 'https://jaxenter.com/devops-interview-schreck-uebel-145573.html',
-    thumbnail: 'DevOpsCon_2018_Speaker.png',
-  },
-  {
-    title: 'Tear down this wall! - Overcoming collaboration obstacles on your DevOps journey',
-    subtitle: '45 min. @ code.talks commerce special Berlin 2018',
-    begin: '',
-    end: '2018-04-13',
-    description: 'The discussion about DevOps is often focusing solely on the tooling aspect: automation, ' +
-      'continuous integration & delivery; and monitoring. But automation and monitoring will only get you so far on ' +
-      'your DevOps journey. The first and arguably hardest thing to master in DevOps is getting your work from ' +
-      'inception into the hands of the customer fast. It requires your engineers to work hand in hand to ensure the ' +
-      'stability of the software as well as the systems it runs on. We focus on the organizational ' +
-      'aspects of DevOps: How to measure and improve your team\'s effectiveness by reducing silos and silo thinking and ' +
-      'how to get your engineers to share responsibility - a basis for every successful DevOps transformation.',
-    tags: ['DevOps', 'culture', 'collaboration', 'communication', 'microservices'],
-    link: 'https://www.youtube.com/watch?v=KWw0H__mtxI',
-    thumbnail: 'code-talks-commerce.png',
-  },
-];
+ ];
