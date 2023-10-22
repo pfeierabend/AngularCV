@@ -260,7 +260,7 @@ export const INTERESTS = [
   },
   {
     title: 'Music',
-    icon: 'play',
+    icon: 'music_note',
   },
   {
     title: 'Badminton',
