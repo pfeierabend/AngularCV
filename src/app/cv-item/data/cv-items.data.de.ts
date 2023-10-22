@@ -4,7 +4,7 @@ import { CvItem } from '../cv-item';
 export const GENERAL = {
   name: 'Patrick Feierabend',
   position: 'IT Project & Team Manager',
-  description: `Die Zusammenarbeit auf gleicher Augenhöhe in einer entspannten Unternehmenskultur ist sowohl euch als auch mir ein wichtiges Anliegen. Deshalb verwende ich hier die "Du"-Form.
+  description: `Die Zusammenarbeit auf Augenhöhe in einer offenen Unternehmenskultur ist sowohl euch als auch mir ein wichtiges Anliegen. Deshalb verwende ich hier die "Du"-Form.
 
 Als ich eure Ausschreibung für erfahrene Dschungel-Guides (IT Project & Team Manager) gesehen habe, wusste ich sofort, dass ich mich bewerben muss. Gerade in den letzten fünf Jahren habe ich das Rüstzeug erworben, das genau für diese Expedition erforderlich ist.
 
@@ -19,7 +19,7 @@ Was ich neben meiner Erfahrung mitbringe:
 •	Eine pragmatische "Hands-on" und "Getting Things Done"-Mentalität
 •	Affinität für Veränderungen
 •	Den festen Willen, meine Mitarbeiter zu fördern und weiterzuentwickeln
-•	Ich habe einen hohen Teamfokus und sehe mich als Manager als supporter des Teams
+•	Ich habe einen hohen Teamfokus und sehe mich als Manager als Supporter des Teams
 •	Erfahrung in der Entwicklung operativer Prozesse auf Grundlage von KPIs und Zahlen
 •	Ein positives Weltbild und die Fähigkeit andere zu begeistern und zu motivieren
 
@@ -49,12 +49,12 @@ export const CVITEMS: CvItem[] = [
     link: 'https://www.foundever.com',
     thumbnail: 'foundever-logo.svg',
     positions: [
-        {
+      {
         title: 'Projekt Manager',
         subtitle: 'ePMO EMEA',
         begin: '2022-06',
         end: '',
-        description: 'In meiner Position als Projektmanager bin ich für die erfolgreiche Implementierung neuer Kunden, die Ramp-up-Phase von Bestandskunden und die Leitung interner Projekte verantwortlich. Dies umfasst strategische Aufgaben wie die Kundenkommunikation und die präzise Planung der Projekttimeline in enger Zusammenarbeit mit den Fachteams, darunter HR, IT-Solutions, Qualität, Operations und mehr. Während der Projektdurchführung lag mein Hauptaugenmerk auf der strikten Einhaltung der Meilensteine und der Berücksichtigung der drei Schlüsselelemente Zeit, Qualität und Finanzen. Eine entscheidende Säule meines Erfolgs besteht in einem durchgängigen und konsequenten Risikomanagement sowie in der transparenten Kommunikation mit den Workstream Leads und den vielfältigen internen sowie externen Stakeholdern. Aufgrund der Qualität meiner ersten Projekte wurde mir schnell die Verantwortung für internationale Programme übertragen. Ein herausragendes Beispiel hierfür ist die erfolgreiche Implementierung eines Kunden aus dem Finanzsektor in Hyderabat, Indien und Dakar, Senegal – eine Aufgabe, die in drei verschiedenen Sprachen bewältigt wurde (weitere Informationen finden Sie im  Abschnitt „Projekte“). In meiner Rolle als Projektmanager setze ich eine speziell auf die BPO-Branche zugeschnittene PMO-Methodologie ein, die auf PRINCE2 und PMBOK basiert. Als Hauptwerkzeug verwende ich Smartsheet, um eine effiziente und transparente Projektverwaltung sicherzustellen. Durch meine umfassende Erfahrung in der Leitung von Projekten und Programmen habe ich meine Fähigkeiten in den Bereichen Projektmanagement, Risikomanagement und Kommunikation auf internationalem Level vertieft.',
+        description: 'In meiner Position als Projektmanager bin ich für die erfolgreiche Implementierung neuer Kunden, die Ramp-up-Phase von Bestandskunden und die Leitung interner Projekte verantwortlich. Dies umfasst strategische Aufgaben wie die Kundenkommunikation und die präzise Planung der Projekttimeline in enger Zusammenarbeit mit den Fachteams, darunter HR, IT-Solutions, Qualität, Operations und mehr. Während der Projektdurchführung liegt mein Hauptaugenmerk auf der strikten Einhaltung der Meilensteine und der Berücksichtigung der drei Schlüsselelemente Zeit, Qualität und Finanzen. Eine entscheidende Säule meines Erfolgs besteht in einem durchgängigen und konsequenten Risikomanagement sowie in der transparenten Kommunikation mit den Workstream Leads und den vielfältigen internen sowie externen Stakeholdern. Aufgrund der Qualität meiner ersten Projekte wurde mir schnell die Verantwortung für internationale Programme übertragen. Ein herausragendes Beispiel hierfür ist die erfolgreiche Implementierung eines Kunden aus dem Finanzsektor in Hyderabat, Indien und Dakar, Senegal – eine Aufgabe, die in drei verschiedenen Sprachen bewältigt wurde (weitere Informationen im  Abschnitt „Projekte“). In meiner Rolle als Projektmanager setze ich eine speziell auf die BPO-Branche zugeschnittene PMO-Methodologie ein, die auf PRINCE2 und PMBOK basiert. Als Hauptwerkzeug verwende ich Smartsheet, um eine effiziente und transparente Projektverwaltung sicherzustellen. Durch meine umfassende Erfahrung in der Leitung von Projekten und Programmen habe ich meine Fähigkeiten in den Bereichen Projektmanagement, Risikomanagement und Kommunikation auf internationalem Level vertieft.',
         tags: ['Projct Management','Teamführung','Leadership','Budget Verwaltung','Risiko Management','Klientenkommunikation','Präsentation','Smartsheet','Miro'],
       },
       {
@@ -70,7 +70,7 @@ export const CVITEMS: CvItem[] = [
         subtitle: 'Mitarbeiter Führung- und Entwicklung',
         begin: '2018-09',
         end: '2019-07',
-        description: 'In meiner vorherigen Position als Teamleiter hatte ich die Verantwortung für die professionelle Führung und Entwicklung eines Teams bestehend aus 15-20 Mitarbeitern, sowohl in fachlicher als auch in disziplinarischer Hinsicht. Meine Aufgaben umfassten die strategische Überwachung und Gewährleistung der Zielerreichung, eine kontinuierliche Qualitätsanalyse, die Bereitstellung von individuellem Coaching und konstruktivem Feedback, die Durchführung von strukturierten Vorstellungsgesprächen zur Auswahl neuer Teammitglieder sowie die Durchsetzung von Disziplinargesprächen, wenn dies erforderlich war. In einem Zeitraum von 6 Monaten gelang es mir, ein Team, das größtenteils aus neu angestellten Mitarbeitern bestand, so zu entwickeln, dass es im Durchschnitt den zweiten Platz im Gesamtprojekt belegte. Darüber hinaus förderte ich erfolgreich drei meiner damaligen Mitarbeiter in weiterführende Positionen. Diese Erfahrung hat meine Kompetenzen im Bereich Teammanagement und Personalentwicklung vertieft.',
+        description: 'In der Teamleiter Rolle war ich verantwortlich für die professionelle Führung und Entwicklung eines Teams bestehend aus 15-20 Mitarbeitern, sowohl in fachlicher als auch in disziplinarischer Hinsicht. Meine Aufgaben umfassten die strategische Überwachung und Gewährleistung der Zielerreichung, eine kontinuierliche Qualitätsanalyse, die Bereitstellung von individuellem Coaching und konstruktivem Feedback, die Durchführung von strukturierten Vorstellungsgesprächen zur Auswahl neuer Teammitglieder sowie das Führen von Disziplinargesprächen, wenn dies erforderlich war. In einem Zeitraum von 6 Monaten gelang es mir, ein Team, das größtenteils aus neu angestellten Mitarbeitern bestand, so zu entwickeln, dass es im Durchschnitt den zweiten Platz im Gesamtprojekt belegte. Darüber hinaus förderte ich erfolgreich drei meiner damaligen Mitarbeiter in weiterführende Positionen. Diese Erfahrung hat meine Kompetenzen im Bereich Teammanagement und Personalentwicklung vertieft.',
         tags: ['Coaching','Mitarbeiterführung','Teamführung','KPI Management','Monitoring','Qualitätsanalyse','Personalentwicklung'],
       },
       {
@@ -88,8 +88,8 @@ export const CVITEMS: CvItem[] = [
     subtitle: 'Selbstständiger Unternehmer',
     begin: '2014-09',
     end: '2017-01',
-    description: '',
-    tags: [],
+    description: 'In der Zeit von 2014 bis 2017 war ich als selbstständiger Unternehmer im Transportwesen tätig. Mein Hauptgeschäft lag in dem Transport von hochwertigen Gebrauchtwagen auf Eigenachse, die von Deutschland ins EU-Ausland veräußert wurden. Meine Kunden setzten sich aus den verkaufenden Autohäusern sowie spezialisierten Agenturen zur internationalen KFZ-Vermittlung zusammen. Während dieser Tätigkeit sammelte ich wertvolle Erfahrungen in der Kundengewinnung, der Vertragsverhandlung und der Preisgestaltung. Diese Aufgabe ermöglichte es mir, meine Fähigkeiten im Bereich der Vertriebsakquise und Kundenbeziehungen zu vertiefen, und ich entwickelte ein Verständnis für das Führen einer Firma.',
+    tags: ['Management','Klientenaquise','Klientenkommunikation','Administration','Preiskalkulation','Firmenleitung'],
     link: '',
     thumbnail: 'cartransport_logo.png',
   },
@@ -98,8 +98,8 @@ export const CVITEMS: CvItem[] = [
     subtitle: 'Sachbearbeiter Kreditwesen & Forderungsmanagement',
     begin: '2011-09',
     end: '2014-08',
-    description: '',
-    tags: [],
+    description: 'Als Sachbearbeiter im Forderungsmanagement lag meine Hauptaufgabe in der Vereinbarung von effektiven Rückzahlungsvereinbarungen mit säumigen Kunden. Diese Rolle erforderte von mir insbesondere den sensiblen und emotional intelligenten Umgang mit Endkunden, selbst in herausfordernden Situationen. Während dieser Tätigkeit konnte ich wertvolle Kompetenzen in der Konfliktlösung und im Kundenbeziehungsmanagement entwickeln. Die Fähigkeit, in schwierigen Situationen Verständnis und Empathie zu zeigen, half mir dabei, erfolgreich mit Kunden zusammenzuarbeiten, um tragfähige Lösungen zu finden. Diese Erfahrungen haben meine zwischenmenschlichen Fähigkeiten vertieft und mich für die Bewältigung anspruchsvoller Kundeninteraktionen sensibilisiert.',
+    tags: ['Forderungsmanagment','Emotionale Intelligenz','Kundenbeziehungsmanagement','Konfliktlösung'],
     link: 'https://www.consorsfinanz.de/',
     thumbnail: 'commerzfinanz-logo.png',
   },
@@ -150,9 +150,9 @@ export const EDUCATION: CvItem[] = [
     subtitle: 'Foundever Top-Talent Programm',
     begin: '2021-01',
     end: '',
-    description: '',
-    tags: [],
-    link: '',
+    description: 'Aktuell befinde ich mich im dritten Jahr des Foundever Top-Talent Programms, einem exklusiven Programm, bei dem jedes Jahr eine Handvoll vielversprechender Talente ausgewählt wird, um einen dreijährigen Entwicklungszyklus zu durchlaufen. Im Rahmen dieses Programms habe ich eine breite Palette interner und externer Workshops zur persönlichen Entwicklung absolviert. Diese Workshops umfassten Themen wie Selbstwirksamkeit, Resilienz, Zeitmanagement und Führungskompetenzen. Des Weiteren habe ich in enger Zusammenarbeit mit anderen Talenten an Gruppenprojekten gearbeitet. Zu diesen Projekten gehörte die Konzeption eines internen Vorschlagswesens sowie die Entwicklung eines innovativen Geschäftsmodells für ein BPO-Unternehmen. Diese Erfahrungen im Rahmen des Talentprogramms haben meine Fähigkeiten in den Bereichen Teamarbeit, kreatives Denken und Projektmanagement erheblich erweitert.',
+    tags: ['Selbstwirksamkeit','Resilienz','Achtsamkeit','Management','Führung'],
+    link: 'http://foundever.life/cv9',
     thumbnail: 'foundever-logo.svg',
   },
   {
@@ -186,11 +186,11 @@ export const LANGUAGES = [
 export const PROJECTS: CvItem[] = [
   {
     title: 'DE IT Helpdesk',
-    subtitle: 'Konzeptionieren und aufsetzen eines IT-Helpdesk für 1st lvl support für W@H Mitarbeiter',
+    subtitle: 'Planung und Einrichtung eines IT-Helpdesks für den 1st-Level-Support von W@H-Mitarbeitern',
     begin: '2021-04',
     end: '2022-04',
-    description: '',
-    tags: [],
+    description: 'Aufgrund von Corona haben wir innerhalb von 3 Moanten 80% unserer Mitarbeiter ins Homeoffice verlagert. Diese Umstellung stellte unsere bestehende IT-Infrastruktur vor erhebliche Anpassungshürden, da sie zuvor auf Vor-Ort-Troubleshooting ausgerichtet war. In Zusammenarbeit mit unserer IT-Verantwortlichen in Deutschland habe ich die Initiative ergriffen, um diese Herausforderungen zu bewältigen. Gemeinsam haben wir die Konzeption und Umsetzung eines 1st-Level-Helpdesks vorangetrieben. In meiner Rolle war ich für die Definition der Aufgaben des Helpdesks verantwortlich, leitete den Auswahlprozess für das Team und konzipierte und führte persönlich das Einführungstraining vor Ort in unserem Standort in Dessau durch. Seit seiner Einführung hat der Helpdesk kontinuierlich an Bedeutung gewonnen und konnte die technisch bedingten Ausfallzeiten von W@H-Mitarbeitern um über 65% reduzieren. Diese Erfahrung hat meine Fähigkeiten in den Bereichen Projektmanagement, Teamführung und Lösungsentwicklung erheblich gestärkt.',
+    tags: ['Projektmanagement','IT-Helpdesk','Lösungsentwicklung'],
     link: '',
     thumbnail: 'helpdesk-logo.png',
   },
@@ -199,8 +199,8 @@ export const PROJECTS: CvItem[] = [
     subtitle: '',
     begin: '2023-05',
     end: '',
-    description: 'Planung und koordinierung der implementierung des Kundenservice für eine große deutsche Automobilbank. Aufbau von ~300 Mitarbeitern in Deutschland und Nearshore',
-    tags: [],
+    description: 'Aktuell leite ich als Program Manager die übernahme des Kundenservices für sechs Geschäftsbereiche einer der größten Autobanken im Homeoffice in Deutschland und Griechenland. Über einen Zeitraum von zwei Jahren implementieren wir diesen äußerst komplexen und vielfältigen Servicebereiche mit einem Team von rund 300 Mitarbeitern. Nach der erfolgreichen Übernahme der ersten Servicebereiche freut es mich, mitteilen zu können, dass das Feedback des Kunden durchweg positiv ist. Dieses Ergebnis haben wir durch eine exzellente Planung erzielt, wobei der Bereich Training eine besonders wichtige Rolle spielte. Eine hervorragende Koordination innerhalb des Teams ermöglichte uns, Herausforderungen frühzeitig zu erkennen und zu bewältigen.',
+    tags: ['Programmmanagement','Teamkoordination','Kundenfeedback','Exzellente Plaung','Problemlösung'],
     link: '',
     thumbnail: 'bank_logo.jpg',
   },
@@ -209,8 +209,8 @@ export const PROJECTS: CvItem[] = [
     subtitle: '',
     begin: '2022-12',
     end: '2023-06',
-    description: 'Planung und koordinierung der implementierung des Kundenservice für ein globales Finanztransaktionsunternehmen. Aufbau von ~120 Mitarbeitern im Senegal und in Indien',
-    tags: [],
+    description: 'Ich erhielt den Auftrag, den Kundenservice für einen internationalen Versandtransaktionsdienstleister in den Sprachen Französisch und Wolof am Standort in Dakar zu implementieren, während ich gleichzeitig die Umsetzung in Englisch am Standort in Hyderabad koordinierte. Dies erwies sich als äußerst anspruchsvolle Aufgabe, da wir nur drei Wochen Zeit von Projektbeginn bis zum ersten Training hatten. Hinzu kam, dass unsere herkömmlichen IT-Lösungen nicht den Anforderungen des Kunden entsprachen. Zusätzlich befand sich der Dienstleister zu diesem Zeitpunkt in einer umfangreichen internen Umstrukturierung und verfügte nicht über ein Konzept zur Qualitätssicherung im Kundenservice. Darüber hinaus waren die bereitgestellten Schulungsmaterialien des Kunden ausschließlich in englischer Sprache verfügbar. Durch eine sorgfältige Due-Diligence-Phase konnten wir diese Herausforderungen frühzeitig erkennen und mithilfe eines effektiven Risikomanagements rechtzeitig vor dem Go-Live bewältigen. Aufgrund der Zufriedenheit des Kunden konnten wir innerhalb eines halben Jahres erheblich mehr Volumen übernehmen und die geplante Anzahl von 80 Arbeitsplätzen auf 140 erhöhen.',
+    tags: ['Programmmanagement','Projektmanagement','Risikomanagement','Internationale Zusammenarbeit','Due Diligence'],
     link: '',
     thumbnail: 'financial-logo.jpg',
   },
@@ -219,8 +219,8 @@ export const PROJECTS: CvItem[] = [
     subtitle: 'Aufbau von Hardware Fulfillment für ~7000 W@H Mitarbeiter',
     begin: '2021-08',
     end: '2022-05',
-    description: '',
-    tags: [],
+    description: 'Eine weitere Herausforderung, die sich im Zuge der Covid-19-Pandemie und der Homeoffice-Verlagerung von rund 7000 Mitarbeitern stellte, war die effiziente Verwaltung des regelmäßigen Versands von Hardware und den Austausch defekter Geräte. Dies war eine Aufgabe, für die wir zuvor nicht vorbereitet waren. In enger Zusammenarbeit mit unserer neu ernannten Direktorin für den Bereich W@H habe ich die Konzeption und Implementierung eines W@H-Fulfillment-Centers an unserem Standort in Krefeld vorangetrieben. In meinem Verantwortungsbereich gehörten die Vorauswahl der geeigneten Warenwirtschaftssoftware sowie die kontinuierliche Optimierung und Weiterentwicklung dieser. Zusätzlich oblag mir die Auswahl der qualifizierten Mitarbeiter und die Schulung in technischen Belangen. Heute ist das Fulfillment-Center ein integraler Bestandteil unserer W@H-Philosophie. Während zuvor Anfragen für den Hardwareversand 3-10 Tage Bearbeitungszeit benötigten, werden sie nun in 90% der Fälle noch am selben Tag umgesetzt, sofern sie vor 12:00 Uhr eingehen. Dieses Projekt hat meine Fähigkeiten in den Bereichen Projektmanagement, Prozessoptimierung und Mitarbeiterentwicklung gestärkt. Ich bin überzeugt, dass meine Expertise in der Bewältigung komplexer logistischer Herausforderungen und meiner Fähigkeit, innovative Lösungen zu entwickeln und umzusetzen, einen wertvollen Beitrag zu Ihrem Unternehmen leisten kann.',
+    tags: ['Projektmanagement','Prozessoptimierung','Teamführung','Lösungsentwicklung','Logistik'],
     link: '',
     thumbnail: 'fulfillment-logo.png',
   },
@@ -233,7 +233,7 @@ export const VOLUNTEERING: CvItem[] = [
 ];
 
 export const CONTACT = {
-  city: 'Krefeld, Germany',
+  city: 'Krefeld',
   phone: '',
   mail: 'patrick@pfeierabend.de',
   skype: '', // just the account name
@@ -260,6 +260,10 @@ export const INTERESTS = [
   {
     title: 'Schach',
     icon: 'timer',
+  },
+  {
+    title: 'Musik',
+    icon: 'play',
   },
   {
     title: 'Badminton',
