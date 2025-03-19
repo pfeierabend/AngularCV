@@ -3,7 +3,7 @@ import { CvItem } from '../cv-item';
 /* eslint-disable max-len */
 export const GENERAL = {
   name: 'Patrick Feierabend',
-  position: 'IT Project & Team Manager',
+  position: 'IT & Project Manager',
   description: `When I saw your job posting for experienced jungle guides (IT Project & Team Manager), I knew immediately that I had to apply. Over the past five years, I have acquired the skills necessary for this expedition.
 
   In recent years, I have successfully navigated through the thicket of project management, explored and overseen the IT jungles as a Senior OnSite Engineer, including setting up an IT Helpdesk. Furthermore, I have led a team through the jungle and developed them into skilled jungle guides. You can find further details about the mentioned expeditions and my previous professional experiences on the following pages. I would be happy to discuss them in more detail in a personal conversation.
