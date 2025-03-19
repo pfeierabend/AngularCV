@@ -3,7 +3,7 @@ import { CvItem } from '../cv-item';
 /* eslint-disable max-len */
 export const GENERAL = {
   name: 'Patrick Feierabend',
-  position: 'IT Project & Team Manager',
+  position: 'IT & Project Manager',
   description: `Die Zusammenarbeit auf Augenhöhe in einer offenen Unternehmenskultur ist sowohl euch als auch mir ein wichtiges Anliegen. Deshalb verwende ich hier die "Du"-Form.
 
 Als ich eure Ausschreibung für erfahrene Dschungel-Guides (IT Project & Team Manager) gesehen habe, wusste ich sofort, dass ich mich bewerben muss. Gerade in den letzten fünf Jahren habe ich das Rüstzeug erworben, das genau für diese Expedition erforderlich ist.
