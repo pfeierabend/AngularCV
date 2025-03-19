@@ -154,5 +154,4 @@ export const L10N = {
       title: 'Soziales Engagement',
     },
   },
-  },
 };
