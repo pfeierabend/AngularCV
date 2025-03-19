@@ -19,6 +19,7 @@ describe('PictureModalComponent', () => {
 
     TestBed.overrideModule(BrowserDynamicTestingModule, {
       set: {
+        // @ts-ignore
         entryComponents: [ PictureModalComponent ],
       }
     });

@@ -5,29 +5,29 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]'
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x, latest]
+        node-version: [22.x, latest]
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
         npm install -g npm@latest @angular/cli
-        npm ci --legacy-peer-deps
+        npm clean-install
         ng lint
-        # ng test --watch false --browsers ChromeHeadless --code-coverage
+        ng test --watch false --browsers ChromeHeadless --code-coverage
         ng build --configuration production --aot
       env:
         CI: true
     - name: Codacy Coverage Reporter
-      if: github.actor != 'dependabot[bot]'
       uses: codacy/codacy-coverage-reporter-action@v1.3.0
       with:
         api-token: ${{ secrets.CODACY_API_TOKEN }}
@@ -40,9 +40,11 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
+      with:
+        node-version: latest
     - name: Install Dependencies
       run: npm install
     - name: Run Semantic Release
@@ -52,6 +54,37 @@ jobs:
         CI: true
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Use Node.js latest
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - name: npm install, build, and test
+        run: |
+          npm install -g npm@latest @angular/cli
+          npm clean-install
+          ng build --configuration production --aot
+        env:
+          CI: true
+      - name: Checkout code on S3
+        uses: reggionick/s3-deploy@v4
+        with:
+          folder: dist/browser
+          bucket: ${{ secrets.AWS_S3_BUCKET }}
+          bucket-region: eu-central-1
+          dist-id: ${{ secrets.AWS_CLOUDFORNT_ID }}
+          delete-removed: true
+          no-cache: true
+          private: true
 
 
 ### UNCOMMENT THE FOLLOWING SECTION TO DEPLOY THE MASTER TO YOUR GITHUB USER PAGE ###
@@ -61,33 +94,21 @@ jobs:
 #    runs-on: ubuntu-latest
 #
 #    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v3
-#      - name: Use Node.js 20.x
-#        uses: actions/setup-node@v3
+#      - name: Download Build Artifact
+#        uses: actions/download-artifact@v4
 #        with:
-#          node-version: 20.x
-#      - name: Build
-#        run: |
-#          npm install -g npm@latest @angular/cli
-#          npm ci
-#          ng build --configuration production --aot
-#        env:
-#          CI: true
-#      - name: GitHub Pages Deploy
-#        uses: crazy-max/ghaction-github-pages@v1.2.5
-#        if: success() && github.ref == 'refs/heads/master'
+#          name: build_artifact
+#          path: dist
+#      - name: Deploy GitHub Page
+#        uses: JamesIves/github-pages-deploy-action@v4
+#        if: github.ref_name == 'master'
 #        with:
 #          # GitHub repository where assets will be deployed (default current)
-#          repo: StegSchreck/stegschreck.github.io
+#          repository-name: StegSchreck/stegschreck.github.io
 #          # Git branch where assets will be deployed
-#          target_branch: master
-#          # Create incremental commit instead of doing push force
-#          keep_history: true
+#          branch: master
+#          # delete files from your deployment destination that no longer exist in your deployment source
+#          clean: true
 #          # Build directory to deploy
-#          build_dir: dist
-#          # Write the given domain name to the CNAME file
-#          #fqdn: stegschreck.github.io
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+#          folder: dist/browser
+#          token: ${{ secrets.GHA_PAT }}

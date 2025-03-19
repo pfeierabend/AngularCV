@@ -1,8 +1,8 @@
 /* eslint-disable */
-import { NgModule }                 from '@angular/core';
+import { NgModule, isDevMode }                 from '@angular/core';
 import { BrowserModule, Title }     from '@angular/platform-browser';
 import { FormsModule }              from '@angular/forms';
-import { HttpClientModule }         from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi }         from '@angular/common/http';
 import { BrowserAnimationsModule }  from '@angular/platform-browser/animations';
 import { MaterialModule }           from './material/material.module';
 
@@ -32,19 +32,10 @@ import { LocalizationService }      from './l10n/l10n.service';
 import { LocalizationComponent }    from './l10n/l10n.component';
 import {MatLineModule} from '@angular/material/core';
 import {MatBadgeModule} from '@angular/material/badge';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import {MatCardModule} from '@angular/material/card';
 
-@NgModule({
-    imports: [
-        BrowserModule,
-        HttpClientModule,
-        FormsModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MaterialModule,
-        MatLineModule,
-        MatBadgeModule,
-    ],
-    declarations: [
+@NgModule({ declarations: [
         AppComponent,
         HeaderComponent,
         OverviewComponent,
@@ -63,14 +54,26 @@ import {MatBadgeModule} from '@angular/material/badge';
         LocalizationComponent,
         CvItemDirective,
     ],
-    providers: [
+    bootstrap: [
+        AppComponent,
+    ], imports: [BrowserModule,
+        FormsModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MaterialModule,
+        MatCardModule,
+        MatLineModule,
+        MatBadgeModule,
+        ServiceWorkerModule.register('ngsw-worker.js', {
+          enabled: !isDevMode(),
+          // Register the ServiceWorker as soon as the application is stable
+          // or after 30 seconds (whichever comes first).
+          registrationStrategy: 'registerWhenStable:30000'
+        })], providers: [
         Title,
         CvItemService,
         FeatureToggleService,
         LocalizationService,
-    ],
-    bootstrap: [
-        AppComponent,
-    ]
-})
+        provideHttpClient(withInterceptorsFromDi()),
+    ] })
 export class AppModule { }
