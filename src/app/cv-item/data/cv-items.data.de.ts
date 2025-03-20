@@ -40,10 +40,20 @@ Warum ich gerne für Doc Check arbeiten möchte:
 
 export const CVITEMS: CvItem[] = [
   {
+    title: 'DocCheck AG',
+    subtitle: 'IT Manager Endpoint/Identity/O365/Helpdesk',
+    begin: '2024-02',
+    end: '-',
+    description: 'Verantwortlich für die Bereiche Endpoint / Identity Management / Helpdesk',
+    tags: ['Management','MS365','Leadership','Budget Verwaltung','Projektmanagement','Abteilungsentwicklung'],
+    link: '',
+    thumbnail: 'dc-logo.jpg',
+  },
+  {
     title: 'Foundever',
     subtitle: 'Mehrere Positionen',
     begin: '2017-02',
-    end: '',
+    end: '2024-01',
     description: 'Foundever™ ist einer der Weltmarktführer im Bereich Outsourcing von Kundenservice Dienstleistungen.',
     tags: [],
     link: 'https://www.foundever.com',
@@ -53,7 +63,7 @@ export const CVITEMS: CvItem[] = [
         title: 'Projekt Manager',
         subtitle: 'ePMO EMEA',
         begin: '2022-06',
-        end: '',
+        end: '2024-01',
         description: 'In meiner Position als Projektmanager bin ich für die erfolgreiche Implementierung neuer Kunden, die Ramp-up-Phase von Bestandskunden und die Leitung interner Projekte verantwortlich. Dies umfasst strategische Aufgaben wie die Kundenkommunikation und die präzise Planung der Projekttimeline in enger Zusammenarbeit mit den Fachteams, darunter HR, IT-Solutions, Qualität, Operations und mehr. Während der Projektdurchführung liegt mein Hauptaugenmerk auf der strikten Einhaltung der Meilensteine und der Berücksichtigung der drei Schlüsselelemente Zeit, Qualität und Finanzen. Eine entscheidende Säule meines Erfolgs besteht in einem durchgängigen und konsequenten Risikomanagement sowie in der transparenten Kommunikation mit den Workstream Leads und den vielfältigen internen sowie externen Stakeholdern. Aufgrund der Qualität meiner ersten Projekte wurde mir schnell die Verantwortung für internationale Programme übertragen. Ein herausragendes Beispiel hierfür ist die erfolgreiche Implementierung eines Kunden aus dem Finanzsektor in Hyderabat, Indien und Dakar, Senegal – eine Aufgabe, die in drei verschiedenen Sprachen bewältigt wurde (weitere Informationen im  Abschnitt „Projekte“). In meiner Rolle als Projektmanager setze ich eine speziell auf die BPO-Branche zugeschnittene PMO-Methodologie ein, die auf PRINCE2 und PMBOK basiert. Als Hauptwerkzeug verwende ich Smartsheet, um eine effiziente und transparente Projektverwaltung sicherzustellen. Durch meine umfassende Erfahrung in der Leitung von Projekten und Programmen habe ich meine Fähigkeiten in den Bereichen Projektmanagement, Risikomanagement und Kommunikation auf internationalem Level vertieft.',
         tags: ['Projct Management','Teamführung','Leadership','Budget Verwaltung','Risiko Management','Klientenkommunikation','Präsentation','Smartsheet','Miro'],
       },
@@ -273,10 +283,6 @@ export const INTERESTS = [
   {
     title: 'Musik',
     icon: 'music_note',
-  },
-  {
-    title: 'Badminton',
-    icon: 'sports_tennis',
   },
   {
     title: 'Programmieren',
