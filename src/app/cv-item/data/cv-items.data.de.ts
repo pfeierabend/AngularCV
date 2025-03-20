@@ -4,15 +4,15 @@ import { CvItem } from '../cv-item';
 export const GENERAL = {
   name: 'Patrick Feierabend',
   position: 'IT & Project Manager',
-  description: `Ich bin ein erfahrener IT-Manager mit einem klaren Fokus darauf, Teams zu befähigen, Herausforderungen zu meistern und gemeinsam nachhaltige Lösungen zu entwickeln. Mein Schwerpunkt liegt in der Leitung fach- und bereichsübergreifender Teams sowie der Umsetzung von IT- und Serviceprojekten, die nicht nur technische, sondern auch organisatorische Veränderungen mit sich bringen.
+  description: `Als IT-Manager liegt mein Fokus darauf, Teams so zu befähigen, dass sie Herausforderungen nicht nur bewältigen, sondern aktiv gestalten können. Ich leite fach- und bereichsübergreifende Teams und setze IT- und Serviceprojekte um, die sowohl technische als auch organisatorische Veränderungen mit sich bringen. Dabei ist mir wichtig, dass Lösungen nicht nur auf dem Papier gut aussehen, sondern in der Praxis greifen und nachhaltig funktionieren.
+  
+Ich sehe mich als Moderator und Coach, der Teams dabei unterstützt, produktiv zusammenzuarbeiten, Wissen gezielt weiterzugeben und sich gegenseitig zu stärken. Ein zentraler Bestandteil meiner Arbeitsweise ist assertive communication – eine klare, direkte, aber respektvolle Art der Kommunikation, die sowohl meinen Teams als auch mir selbst Verlässlichkeit und Orientierung gibt. Ich lege großen Wert auf eine offene Gesprächskultur, in der jede Perspektive zählt und fundierte Entscheidungen auf einer gemeinsamen Basis getroffen werden.
 
-Was mich auszeichnet, ist meine Fähigkeit, Brücken zu bauen – zwischen IT und Business, zwischen verschiedenen Interessen und zwischen Menschen mit unterschiedlichen Perspektiven. Ich verstehe mich als Moderator und Coach, der Strukturen schafft, in denen Teams produktiv zusammenarbeiten, Wissen teilen und sich gegenseitig unterstützen. Dabei setze ich auf klare Kommunikation, Transparenz und pragmatische Lösungen, die für alle Beteiligten funktionieren.
+Ein wesentlicher Teil meiner Arbeit besteht darin, komplexe Sachverhalte verständlich zu machen und verschiedene Interessen auf einen gemeinsamen Nenner zu bringen. Ich bringe interne Teams, externe Partner und Führungsebenen zusammen, um reibungslose Prozesse und tragfähige Entscheidungen zu ermöglichen. Denn erfolgreiche Projekte entstehen nicht nur durch Technik – sondern durch effektive Zusammenarbeit. Entscheidungen müssen nicht nur strategisch sinnvoll sein, sondern auch operativ umsetzbar.
 
-In meiner Arbeit geht es oft darum, komplexe Themen verständlich zu machen, unterschiedliche Interessen zusammenzuführen und zielführende Entscheidungen vorzubereiten. Ich schätze den Austausch mit unterschiedlichsten Stakeholdern – vom operativen Team bis zur strategischen Ebene – und weiß, wie wichtig es ist, die richtigen Informationen zur richtigen Zeit bereitzustellen. Dabei lege ich Wert darauf, Gespräche auf Augenhöhe zu führen, Erwartungen zu managen und gemeinsam Lösungen zu entwickeln, die nicht nur kurzfristig funktionieren, sondern langfristig Bestand haben.
+Technik ist für mich kein Selbstzweck, sondern ein Werkzeug, das Arbeitsprozesse erleichtert und Mehrwert schafft. IT sollte nicht komplizierter machen, sondern Menschen dabei unterstützen, effizient und gerne mit den Systemen zu arbeiten.
 
-Ich habe in meiner Laufbahn bereits viele komplexe Projekte begleitet – von der Einführung neuer Technologien bis hin zur Optimierung bestehender Prozesse. Dabei geht es mir nicht nur darum, technische Systeme zu verbessern, sondern vor allem darum, dass Menschen mit diesen Systemen effizient und gerne arbeiten. Eine gute IT ist für mich die, die den Alltag erleichtert und nicht verkompliziert.
-
-Mir ist wichtig, ein Umfeld zu schaffen, in dem sich Teams weiterentwickeln können, Herausforderungen offen angegangen werden und in dem Fehler als Lernchancen gesehen werden. Ich glaube daran, dass die besten Ergebnisse dann entstehen, wenn jeder seine Stärken einbringen kann – und ich sehe meine Rolle darin, genau diese Stärken zu erkennen und zu fördern.
+Ich setze mich dafür ein, ein Umfeld zu schaffen, in dem Teams wachsen können, Herausforderungen offen angegangen werden und Fehler nicht als Versagen, sondern als Lernchancen dienen. Ich glaube daran, dass die besten Lösungen entstehen, wenn Menschen ihre Stärken einbringen können – und sehe es als meine Aufgabe, genau das zu fördern.
 `,
 };
 /* eslint-enable max-len */
@@ -22,7 +22,7 @@ export const CVITEMS: CvItem[] = [
     title: 'DocCheck AG',
     subtitle: 'IT Manager Endpoint/Identity/O365/Helpdesk',
     begin: '2024-02',
-    end: '-',
+    end: '',
     description: 'Als IT-Manager bei der DocCheck AG trage ich die Gesamtverantwortung für die Bereiche Endpoint, Identity Management und Helpdesk. Neben der fachlichen und disziplinarischen Führung meines Teams bin ich für die strategische Weiterentwicklung dieser Bereiche zuständig und berichte direkt an den CTO. Ein Schwerpunkt meiner Arbeit liegt im IT-Projektmanagement: von der Planung über die Steuerung bis hin zur erfolgreichen Umsetzung von IT-Projekten. Dabei stelle ich sicher, dass technische Lösungen effizient implementiert, Prozesse optimiert und strategische Unternehmensziele unterstützt werden.',
     tags: ['Management', 'MS365', 'Leadership', 'Budget Verwaltung', 'Projektmanagement', 'Abteilungsentwicklung'],
     link: 'https://www.doccheck.com/',
@@ -43,7 +43,7 @@ export const CVITEMS: CvItem[] = [
         subtitle: 'ePMO EMEA',
         begin: '2022-06',
         end: '2024-01',
-        description: 'In meiner Position als Projektmanager bin ich für die erfolgreiche Implementierung neuer Kunden, die Ramp-up-Phase von Bestandskunden und die Leitung interner Projekte verantwortlich. Dies umfasst strategische Aufgaben wie die Kundenkommunikation und die präzise Planung der Projekttimeline in enger Zusammenarbeit mit den Fachteams, darunter HR, IT-Solutions, Qualität, Operations und mehr. Während der Projektdurchführung liegt mein Hauptaugenmerk auf der strikten Einhaltung der Meilensteine und der Berücksichtigung der drei Schlüsselelemente Zeit, Qualität und Finanzen. Eine entscheidende Säule meines Erfolgs besteht in einem durchgängigen und konsequenten Risikomanagement sowie in der transparenten Kommunikation mit den Workstream Leads und den vielfältigen internen sowie externen Stakeholdern. Aufgrund der Qualität meiner ersten Projekte wurde mir schnell die Verantwortung für internationale Programme übertragen. Ein herausragendes Beispiel hierfür ist die erfolgreiche Implementierung eines Kunden aus dem Finanzsektor in Hyderabad, Indien und Dakar, Senegal – eine Aufgabe, die in drei verschiedenen Sprachen bewältigt wurde (weitere Informationen im Abschnitt „Projekte“). In meiner Rolle als Projektmanager setze ich eine speziell auf die BPO-Branche zugeschnittene PMO-Methodologie ein, die auf PRINCE2 und PMBOK basiert. Als Hauptwerkzeug verwende ich Smartsheet, um eine effiziente und transparente Projektverwaltung sicherzustellen. Durch meine umfassende Erfahrung in der Leitung von Projekten und Programmen habe ich meine Fähigkeiten in den Bereichen Projektmanagement, Risikomanagement und Kommunikation auf internationalem Level vertieft.',
+        description: 'Als Projektmanager war ich für die Implementierung neuer Kunden, die Ramp-up-Phase bestehender Kunden und die Leitung interner Projekte verantwortlich. Dabei koordinierte ich die Projektplanung mit Fachteams wie HR, IT-Solutions, Qualität und Operations und stellte die Einhaltung von Meilensteinen unter Berücksichtigung von Zeit, Qualität und Budget sicher. Mein Erfolg basierte auf konsequentem Risikomanagement und transparenter Kommunikation mit internen und externen Stakeholdern. Aufgrund meiner ersten erfolgreichen Projekte übernahm ich schnell Verantwortung für internationale Programme, darunter die Implementierung eines Finanzsektorkunden in Hyderabad und Dakar. Ich nutzte eine auf die BPO-Branche zugeschnittene PMO-Methodik (PRINCE2, PMBOK) und Smartsheet für eine effiziente Projektverwaltung. Diese Erfahrung hat meine Fähigkeiten in Projekt- und Risikomanagement sowie internationale Kommunikation weiter geschärft.',
         tags: ['Project Management', 'Teamführung', 'Leadership', 'Budget Verwaltung', 'Risiko Management', 'Klientenkommunikation', 'Präsentation', 'Smartsheet', 'Miro'],
       },
       {
@@ -51,7 +51,7 @@ export const CVITEMS: CvItem[] = [
         subtitle: 'Technische Standortleitung',
         begin: '2019-08',
         end: '2022-05',
-        description: 'In meiner vorherigen Position als Senior OnSite Engineer war ich für den reibungslosen Betrieb von bis zu 1800 Arbeitsplätzen an den Standorten in Krefeld und Düsseldorf verantwortlich. Ich leitete das IT-Onsite Team und trug die technische Gesamtverantwortung für beide Standorte. Meine Aufgaben umfassten die Wartung und Fehlerbehebung an den Arbeitsplätzen, die technische Implementierung neuer Kundenprojekte, das Einrichten und Verkabeln von Arbeitsplätzen sowie die enge Zusammenarbeit mit Fachteams wie Networking und Voice. Zusätzlich leitete ich Großprojekte zur Verbesserung unserer IT-Supportstruktur in Deutschland, darunter die erfolgreiche Einrichtung eines W@H Helpdesks und unseres deutschlandweiten W@H Fulfillments. Des Weiteren war ich für das Aufsetzen und die Wartung von virtuellen Arbeitsplätzen mittels AWS verantwortlich. Diese Position ermöglichte es mir, meine Fähigkeiten im Teammanagement, der technischen Projektdurchführung und im Problemlösen zu vertiefen. Meine Erfahrung in Großprojekten zur Verbesserung der IT-Infrastruktur hat meine Fähigkeiten in strategischer Planung und Umsetzung gestärkt.',
+        description: 'Als Senior OnSite Engineer war ich für den Betrieb von bis zu 1800 Arbeitsplätzen an den Standorten Krefeld und Düsseldorf verantwortlich und leitete das IT-Onsite-Team. Neben Wartung und Fehlerbehebung umfassten meine Aufgaben die technische Implementierung neuer Kundenprojekte, das Einrichten von Arbeitsplätzen sowie die enge Zusammenarbeit mit Networking- und Voice-Teams. Zudem leitete ich Großprojekte zur Optimierung der IT-Supportstruktur in Deutschland, darunter die Einführung eines W@H-Helpdesks und deutschlandweiten W@H-Fulfillments. Ich verantwortete außerdem die Einrichtung und Wartung virtueller Arbeitsplätze via AWS. Diese Rolle vertiefte meine Fähigkeiten in Teammanagement, technischer Projektdurchführung und strategischer IT-Planung.',
         tags: ['Active Directory', 'Windows Server', 'Troubleshooting', 'IT Management', 'IT Project Management', 'Endpoint', 'AWS', 'Mitarbeiterführung', 'Personalentwicklung'],
       },
       {
@@ -59,7 +59,7 @@ export const CVITEMS: CvItem[] = [
         subtitle: 'Mitarbeiter Führung- und Entwicklung',
         begin: '2018-09',
         end: '2019-07',
-        description: 'In der Teamleiter Rolle war ich verantwortlich für die professionelle Führung und Entwicklung eines Teams bestehend aus 15-20 Mitarbeitern, sowohl in fachlicher als auch in disziplinarischer Hinsicht. Meine Aufgaben umfassten die strategische Überwachung und Gewährleistung der Zielerreichung, eine kontinuierliche Qualitätsanalyse, die Bereitstellung von individuellem Coaching und konstruktivem Feedback, die Durchführung von strukturierten Vorstellungsgesprächen zur Auswahl neuer Teammitglieder sowie das Führen von Disziplinargesprächen, wenn dies erforderlich war. In einem Zeitraum von 6 Monaten gelang es mir, ein Team, das größtenteils aus neu angestellten Mitarbeitern bestand, so zu entwickeln, dass es im Durchschnitt den zweiten Platz im Gesamtprojekt belegte. Darüber hinaus förderte ich erfolgreich drei meiner damaligen Mitarbeiter in weiterführende Positionen. Diese Erfahrung hat meine Kompetenzen im Bereich Teammanagement und Personalentwicklung vertieft.',
+        description: 'Als Teamleiter war ich für die fachliche und disziplinarische Führung eines 15- bis 20-köpfigen Teams verantwortlich. Meine Aufgaben umfassten Zielüberwachung, Qualitätsanalyse, individuelles Coaching, Feedback sowie die Auswahl und Entwicklung neuer Mitarbeiter. Innerhalb von sechs Monaten entwickelte ich ein größtenteils neu zusammengestelltes Team so weiter, dass es im Gesamtprojekt konstant auf Platz zwei lag. Zudem förderte ich drei Mitarbeiter erfolgreich in weiterführende Positionen. Diese Erfahrung hat meine Kompetenzen in Teammanagement und Personalentwicklung maßgeblich gestärkt.',
         tags: ['Coaching', 'Mitarbeiterführung', 'Teamführung', 'KPI Management', 'Monitoring', 'Qualitätsanalyse', 'Personalentwicklung'],
       },
       {
@@ -77,7 +77,7 @@ export const CVITEMS: CvItem[] = [
     subtitle: 'Selbstständiger Unternehmer',
     begin: '2014-09',
     end: '2017-01',
-    description: 'In der Zeit von 2014 bis 2017 war ich als selbstständiger Unternehmer im Transportwesen tätig. Mein Hauptgeschäft lag in dem Transport von hochwertigen Gebrauchtwagen auf Eigenachse, die von Deutschland ins EU-Ausland veräußert wurden. Meine Kunden setzten sich aus den verkaufenden Autohäusern sowie spezialisierten Agenturen zur internationalen KFZ-Vermittlung zusammen. Während dieser Tätigkeit sammelte ich wertvolle Erfahrungen in der Kundengewinnung, der Vertragsverhandlung und der Preisgestaltung. Diese Aufgabe ermöglichte es mir, meine Fähigkeiten im Bereich der Vertriebsakquise und Kundenbeziehungen zu vertiefen, und ich entwickelte ein Verständnis für das Führen einer Firma.',
+    description: 'Von 2014 bis 2017 war ich als selbstständiger Unternehmer im Transportwesen tätig und spezialisierte mich auf den Transport hochwertiger Gebrauchtwagen ins EU-Ausland. Meine Kunden waren Autohäuser und Agenturen für internationale KFZ-Vermittlung. In dieser Zeit sammelte ich wertvolle Erfahrung in Kundengewinnung, Vertragsverhandlung und Preisgestaltung und vertiefte meine Kompetenzen in Vertrieb und Kundenmanagement. Zudem entwickelte ich ein fundiertes Verständnis für unternehmerische Führung.',
     tags: ['Management', 'Klientenaquise', 'Klientenkommunikation', 'Administration', 'Preiskalkulation', 'Firmenleitung'],
     link: '',
     thumbnail: 'cartransport_logo.png',
@@ -87,7 +87,7 @@ export const CVITEMS: CvItem[] = [
     subtitle: 'Sachbearbeiter Kreditwesen & Forderungsmanagement',
     begin: '2011-09',
     end: '2014-08',
-    description: 'Als Sachbearbeiter im Forderungsmanagement lag meine Hauptaufgabe in der Vereinbarung von effektiven Rückzahlungsvereinbarungen mit säumigen Kunden. Diese Rolle erforderte von mir insbesondere den sensiblen und emotional intelligenten Umgang mit Endkunden, selbst in herausfordernden Situationen. Während dieser Tätigkeit konnte ich wertvolle Kompetenzen in der Konfliktlösung und im Kundenbeziehungsmanagement entwickeln. Die Fähigkeit, in schwierigen Situationen Verständnis und Empathie zu zeigen, half mir dabei, erfolgreich mit Kunden zusammenzuarbeiten, um tragfähige Lösungen zu finden. Diese Erfahrungen haben meine zwischenmenschlichen Fähigkeiten vertieft und mich für die Bewältigung anspruchsvoller Kundeninteraktionen sensibilisiert.',
+    description: 'Als Sachbearbeiter im Forderungsmanagement verhandelte ich Rückzahlungsvereinbarungen mit säumigen Kunden. Die Rolle verlangte sensibles Konfliktmanagement und empathische Kommunikation, auch in schwierigen Situationen. Diese Erfahrung hat meine Fähigkeiten in Kundenbeziehungsmanagement und lösungsorientierter Verhandlung geschärft.',
     tags: ['Forderungsmanagement', 'Emotionale Intelligenz', 'Kundenbeziehungsmanagement', 'Konfliktlösung'],
     link: 'https://www.consorsfinanz.de/',
     thumbnail: 'commerzfinanz-logo.png',
@@ -207,7 +207,7 @@ export const PROJECTS: CvItem[] = [
     title: 'Implementierung des Kundenservice einer großen Automobilbank',
     subtitle: '',
     begin: '2023-05',
-    end: '',
+    end: '2024-01',
     description: 'Aktuell leite ich als Program Manager die übernahme des Kundenservices für sechs Geschäftsbereiche einer der größten Autobanken im Homeoffice in Deutschland und Griechenland. Über einen Zeitraum von zwei Jahren implementieren wir diesen äußerst komplexen und vielfältigen Servicebereiche mit einem Team von rund 300 Mitarbeitern. Nach der erfolgreichen Übernahme der ersten Servicebereiche freut es mich, mitteilen zu können, dass das Feedback des Kunden durchweg positiv ist. Dieses Ergebnis haben wir durch eine exzellente Planung erzielt, wobei der Bereich Training eine besonders wichtige Rolle spielte. Eine hervorragende Koordination innerhalb des Teams ermöglichte uns, Herausforderungen frühzeitig zu erkennen und zu bewältigen.',
     tags: ['Programmmanagement','Teamkoordination','Kundenfeedback','Exzellente Plaung','Problemlösung'],
     link: '',

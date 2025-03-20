@@ -4,38 +4,30 @@ import { CvItem } from '../cv-item';
 export const GENERAL = {
   name: 'Patrick Feierabend',
   position: 'IT & Project Manager',
-  description: `When I saw your job posting for experienced jungle guides (IT Project & Team Manager), I knew immediately that I had to apply. Over the past five years, I have acquired the skills necessary for this expedition.
+  description: `As an IT Manager, my focus is on empowering teams not just to overcome challenges, but to actively shape solutions. I lead cross-functional teams and drive IT and service projects that involve both technical and organizational change. For me, it’s essential that solutions don’t just look good on paper but are practical, effective, and sustainable in the real world.
 
-  In recent years, I have successfully navigated through the thicket of project management, explored and overseen the IT jungles as a Senior OnSite Engineer, including setting up an IT Helpdesk. Furthermore, I have led a team through the jungle and developed them into skilled jungle guides. You can find further details about the mentioned expeditions and my previous professional experiences on the following pages. I would be happy to discuss them in more detail in a personal conversation.
-  
-  Although a separate cover letter is not required, I still find it helpful to summarize some key information:
-  
-  What I bring in addition to my experience:
-  
-  • A high degree of initiative and energy
-  • A pragmatic "hands-on" and "Getting Things Done" mentality
-  • An affinity for change
-  • A strong commitment to promoting and developing my team members
-  • I have a strong team focus and see myself as a supporter of the team as a manager
-  • Experience in developing operational processes based on KPIs and figures
-  • A positive worldview and the ability to inspire and motivate others
-  
-  What I expect from the position:
-  
-  • A team that wants to achieve the set goals together and a people-oriented atmosphere that supports this
-  • The opportunity to identify optimization potentials, convert them into projects in collaboration with the IT management, lead them independently, and successfully implement them
-  
-  Why I would like to work for Doc Check:
-  
-  • The role aligns with my skills and combines IT, team management, and project management in an optimal way
-  • The described corporate culture aligns with my values
-  • Doc Check offers job security
-  • I am looking forward to working in the medical environment
-  `,
+I see myself as a facilitator and coach, enabling teams to collaborate effectively, share knowledge, and support each other. A core principle of my approach is assertive communication—clear, direct, yet respectful dialogue that provides both my teams and myself with clarity and direction. I strongly believe in fostering an open communication culture where every perspective is valued and well-informed decisions are made collectively.
+
+A key part of my role is making complex topics understandable and aligning different interests toward a common goal. I bring together internal teams, external partners, and leadership to ensure smooth processes and well-founded decision-making. After all, successful projects aren’t just driven by technology—they thrive on strong collaboration. Decisions need to be not only strategically sound but also practical and executable.
+
+For me, technology is not an end in itself but a tool to simplify workflows and create real value. IT should not complicate things—it should enable people to work efficiently and seamlessly.
+
+I am committed to creating an environment where teams can grow, where challenges are approached openly, and where mistakes are seen as learning opportunities rather than failures. I firmly believe that the best solutions emerge when people can leverage their strengths—and I see it as my role to make that possible.
+`,
 };
 /* eslint-enable max-len */
 
 export const CVITEMS: CvItem[] = [
+  {
+    title: 'DocCheck AG',
+    subtitle: 'IT Manager Endpoint/Identity/O365/Helpdesk',
+    begin: '2024-02',
+    end: '',
+    description: 'As an IT Manager at DocCheck AG, I have overall responsibility for the areas of Endpoint, Identity Management, and Helpdesk. In addition to leading my team both technically and disciplinarily, I am responsible for the strategic development of these areas and report directly to the CTO. A key focus of my work is IT project management—covering everything from planning and coordination to successful implementation. I ensure that technical solutions are deployed efficiently, processes are optimized, and strategic business goals are supported.',
+    tags: ['Management', 'MS365', 'Leadership', 'Budget Verwaltung', 'Project management', 'department development'],
+    link: 'https://www.doccheck.com/',
+    thumbnail: 'dc-logo.jpg',
+  },
   {
     title: 'Foundever',
     subtitle: 'Multiple positions',
@@ -206,7 +198,7 @@ export const PROJECTS: CvItem[] = [
     subtitle: '',
     begin: '2022-12',
     end: '2023-06',
-    description: 'Ich erhielt den Auftrag, den Kundenservice für einen internationalen Versandtransaktionsdienstleister in den Sprachen Französisch und Wolof am Standort in Dakar zu implementieren, während ich gleichzeitig die Umsetzung in Englisch am Standort in Hyderabad koordinierte. Dies erwies sich als äußerst anspruchsvolle Aufgabe, da wir nur drei Wochen Zeit von Projektbeginn bis zum ersten Training hatten. Hinzu kam, dass unsere herkömmlichen IT-Lösungen nicht den Anforderungen des Kunden entsprachen. Zusätzlich befand sich der Dienstleister zu diesem Zeitpunkt in einer umfangreichen internen Umstrukturierung und verfügte nicht über ein Konzept zur Qualitätssicherung im Kundenservice. Darüber hinaus waren die bereitgestellten Schulungsmaterialien des Kunden ausschließlich in englischer Sprache verfügbar. Durch eine sorgfältige Due-Diligence-Phase konnten wir diese Herausforderungen frühzeitig erkennen und mithilfe eines effektiven Risikomanagements rechtzeitig vor dem Go-Live bewältigen. Aufgrund der Zufriedenheit des Kunden konnten wir innerhalb eines halben Jahres erheblich mehr Volumen übernehmen und die geplante Anzahl von 80 Arbeitsplätzen auf 140 erhöhen.',
+    description: 'I was tasked with implementing customer service for an international payment transactions provider in French and Wolof at the Dakar site, while simultaneously coordinating the English-language rollout at the Hyderabad location. This proved to be a highly challenging project, as we had only three weeks from project kickoff to the first training session. Additionally, our existing IT solutions did not meet the client’s requirements. At the same time, the company was undergoing a major internal restructuring and lacked a defined quality assurance framework for customer service. Furthermore, the client’s training materials were only available in English. Through a thorough due diligence process, we identified these challenges early on and mitigated them with effective risk management before the go-live. Due to the client’s high satisfaction, we were able to significantly expand operations within six months, increasing the initially planned 80 positions to 140.',
     tags: ['Program management', 'Project management', 'Risk management', 'International collaboration', 'Due diligence'],
     link: '',
     thumbnail: 'financial-logo.jpg',
@@ -261,10 +253,6 @@ export const INTERESTS = [
   {
     title: 'Music',
     icon: 'music_note',
-  },
-  {
-    title: 'Badminton',
-    icon: 'sports_tennis',
   },
   {
     title: 'Programming',
