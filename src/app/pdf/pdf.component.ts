@@ -168,6 +168,7 @@ export class PdfComponent implements OnInit {
 
   private addOverviewPageContent(pdf: jsPDF) {
     this.addGeneralDescription(pdf);
+    this.splitPageIfNecessary(pdf);
     this.verticalPosition += 10;
     this.addContactData(pdf);
     this.addLanguages(pdf);
@@ -183,8 +184,10 @@ export class PdfComponent implements OnInit {
     pdf.setFontSize(12);
     pdf.setFont(STANDARD_FONT, 'normal');
     const splittedDescription = pdf.splitTextToSize(this.generalData.description, MAX_HORIZONTAL_WIDTH);
+    this.splitPageIfNecessary(pdf);
     pdf.text(splittedDescription, PAGE_BORDER_LEFT, this.verticalPosition);
     this.verticalPosition += (splittedDescription.length - this.generalData.description.split('\n').length - 1) * 7;
+    this.splitPageIfNecessary(pdf);
   }
 
   private addContactData(pdf: jsPDF) {
