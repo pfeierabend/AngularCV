@@ -174,6 +174,26 @@ export const LANGUAGES = [
 
 export const PROJECTS: CvItem[] = [
   {
+    title: 'Migration to New Telephone System',
+    subtitle: 'Planning and implementation of the migration from Pascom on-premise to Teams Phone',
+    begin: '2024-06',
+    end: '2024-08',
+    description: 'The project was a particular challenge due to the tight timeline of only 1.5 months. Thanks to focused teamwork, efficient coordination with procurement and the provider, and clear prioritization, we were able to complete the migration successfully. In addition to switching the CTI, changing the telephony provider was also necessary, which increased the complexity. The new solution now offers extended features such as queue management, and integration into Teams enables a more streamlined tool landscape. The project was completed on time and within budget.',
+    tags: ['Project Management','CTI','Solution Development'],
+    link: '',
+    thumbnail: 'teams-phone.jpg',
+  },
+  {
+    title: 'Implementation of Azure Automation',
+    subtitle: 'Introduction of a solution to automate recurring IT processes',
+    begin: '2024-09',
+    end: '2024-12',
+    description: 'Before implementation, there was no central automation solution, making many IT processes inefficient and error-prone. I identified Azure Automation as a strategic solution, implemented it, and successfully integrated it into existing workflows. As a result, numerous manual tasks were automated, errors reduced, and internal transparency improved – with minimal cost and maximum efficiency gain.',
+    tags: ['Project Management','IT Helpdesk','Solution Development'],
+    link: '',
+    thumbnail: 'az-automation.png',
+  },
+  {
     title: 'DE IT-helpdesk',
     subtitle: 'Planning and establishment of an IT helpdesk for 1st-level support for Work-at-Home employees.',
     begin: '2021-04',
@@ -204,7 +224,7 @@ export const PROJECTS: CvItem[] = [
     thumbnail: 'financial-logo.jpg',
   },
   {
-    title: 'Establishment of Fulfillment Center',
+    title: 'Establishment of a fulfillment center',
     subtitle: 'Establishment of Hardware Fulfillment for ~7000 Work-at-Home Employees',
     begin: '2021-08',
     end: '2022-05',
