@@ -228,7 +228,7 @@ export const PROJECTS: CvItem[] = [
     subtitle: 'Aufbau von Hardware Fulfillment für ~7000 W@H Mitarbeiter',
     begin: '2021-08',
     end: '2022-05',
-    description: 'Während der COVID-19-Pandemie stellte die Verlagerung von 7.000 Mitarbeitern ins Homeoffice neue logistische Herausforderungen, insbesondere im effizienten Hardware-Versand und Geräteaustausch. In Zusammenarbeit mit unserer W@H-Direktorin leitete ich die Konzeption und Implementierung eines Fulfillment-Centers am Standort Krefeld. Mein Verantwortungsbereich umfasste die Auswahl und Optimierung der Warenwirtschaftssoftware, den Aufbau eines leistungsfähigen Teams sowie die Schulung der Mitarbeiter. Heute ist das Center ein zentraler Bestandteil der W@H-Strategie – Anfragen, die zuvor 3–10 Tage dauerten, werden nun zu 90 % am selben Tag bearbeitet. Dieses Projekt stärkte meine Kompetenzen in Projektmanagement, Prozessoptimierung und Teamaufbau.',
+    description: 'Während der COVID-19-Pandemie stellte die Verlagerung von 7.000 Mitarbeitern ins Homeoffice neue logistische Herausforderungen, insbesondere im effizienten Hardware-Versand und Geräteaustausch. In Zusammenarbeit mit unserer W@H-Direktorin leitete ich die Konzeption und Implementierung eines Fulfillment-Centers am Standort Krefeld. Mein Verantwortungsbereich umfasste die Auswahl und Optimierung der Warenwirtschaftssoftware, den Aufbau eines leistungsfähigen Teams sowie die Schulung der Mitarbeiter. Heute ist das Center ein zentraler Bestandteil der W@H-Strategie – Anfragen, die zuvor 3–10 Tage dauerten, werden nun zu 90 % am selben Tag bearbeitet.',
     tags: ['Projektmanagement','Prozessoptimierung','Teamführung','Lösungsentwicklung','Logistik'],
     link: '',
     thumbnail: 'fulfillment-logo.png',
